@@ -1,0 +1,180 @@
+{
+  "basics": {
+    "name": "Anthony Metzler",
+    "label": "Product Development Leader",
+    "picture": "./profilePhoto.jpg",
+    "email": "anthony.metzler@gmail.com",
+    "phone": "+14155954395",
+    "website": "http://ametzler.com",
+    "summary": "I like tech and this is my summary.",
+    "location": {
+      "address": "",
+      "postalCode": "94131",
+      "city": "San Francisco",
+      "countryCode": "USA",
+      "region": "CA"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "anthonymetzler",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "anthonymetzler",
+        "url": "https://github.com/anthonyetzler"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "anthonymetzler",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Metz Tech",
+      "position": "Product Development Manager",
+      "website": "http://metz.tech",
+      "startDate": "2017-02-27",
+      "endDate": "",
+      "summary": "Heading R&D of SaaS solutions for automating workflows and providing technical consultation and development for external clients.",
+      "highlights": [
+        "Prototyping a collection of services to power a mobile-focused inventory management platform."
+        ]
+    },
+    {
+      "company": "ClearCare",
+      "position": "Product Engineering Manager",
+      "website": "http://clearcareonline.com",
+      "startDate": "2017-09-01",
+      "endDate": "2017-02-24",
+      "summary": "Directly managed 6-10 Engineers, designed UI/UX requirements and prototypes for numerous new applications, enhancements, and fixes. Served as main customer interface and Scrum Master for multiple engineering projects running in parallel. Leader of cross-functional initiatives driving business development.",
+      "highlights": [
+        "Managed the product development of a mobile web and Android application from concept to completion, which supported onboarding new clients resulting in over $50k new MRR.",
+        "Oversaw the specification and development of a GraphQL API for integrating multiple platform services.",
+        "Developed a Jenkins + Docker CI pipeline for creating release branches, deploying to staging environments, and running test suites — this pipeline decreased pre-deployment time by 50%.",
+        "Lead customer engagement and product development for supporting vital sales objectives necessary to capture over $200k in potential MRR."
+        ]
+    },
+    {
+      "company": "ClearCare",
+      "position": "QA Manager",
+      "website": "http://clearcareonline.com",
+      "startDate": "2015-04-01",
+      "endDate": "2017-08-31",
+      "summary": "As head of Quality Assurance, managed a team of 3-5 QA Engineers in developing test strategies, frameworks, and software quality standards. Acted as the Release Manager responsible for git flow, testing, authoring release notes, and near-daily production deployments. Collaborated upstream with the product team to ensure quality during sprint planning and story elaborations.",
+      "highlights": [
+        "Awarded the ClearCare Hero Award, company wide recognition for excellence.",
+        "Directed the completion and operation of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating our test strategy it decreased manual testing time by 75%.",
+        "Oversaw quality of partner integrations and data, including Harvard Medical, Stanford, industry franchisors, payment processing vendors, and background check providers."
+        ]
+    },
+    {
+      "company": "ClearCare",
+      "position": "Senior QA Lead",
+      "website": "http://clearcareonline.com",
+      "startDate": "2013-03-14",
+      "endDate": "2015-03-31",
+      "summary": "Managed a team of QA Testers, responsible for writing test cases, manual testing, and completing 100+ test cases on weekly releases. Oversaw office IT infrastructure such as hardware, networking, and vendors. Served as a cross-functional technical resource and IT Administrator. Managed the verification, triaging, and escalation of all reported issues.",
+      "highlights": [
+        "Documented product enhancements and fixes as well as provided product demos and training.",
+        "Acted as the project lead for writing, producing, and deploying product training videos, in order to assist with scaling the customer onboarding and success teams.",
+        "Researched, implemented, and administered numerous software solutions, including: Salesforce, Zuora, JIRA, Confluence, LucidChart, Influitive, Adobe Cloud, and more." 
+        ]
+    },
+    {
+      "company": "Creative Solutions",
+      "position": "Senior Product Manager",
+      "website": "",
+      "startDate": "2017-04-01",
+      "endDate": "2017-08-31",
+      "summary": "Lead a team of 3-8 Engineers and Business Development Managers in defining, developing, and completing a B2B SaaS application. Headed business strategy, product design, and operations. Developed websites, user interfaces, and marketing materials.",
+      "highlights": [
+        "Oversaw the development of a cloud POS platform with integrated mobile orders; software application was taken from concept to an operational Beta pilot.",
+        "Awarded the Entrepreneurial Award for student affiliated startup by Stetson University.",
+        "Completed a round of seed funding for the business."
+        ]
+    },
+    {
+      "company": "Creative Solutions",
+      "position": "Senior Product Manager",
+      "website": "",
+      "startDate": "2017-04-01",
+      "endDate": "2017-08-31",
+      "summary": "Lead a team of 3-8 Engineers and Business Development Managers in defining, developing, and completing a B2B SaaS application. Headed business strategy, product design, and operations. Developed websites, user interfaces, and marketing materials.",
+      "highlights": [
+        "Oversaw the development of a cloud POS platform with integrated mobile orders; software application was taken from concept to an operational Beta pilot.",
+        "Awarded the Entrepreneurial Award for student affiliated startup by Stetson University.",
+        "Completed a round of seed funding for the business."
+        ]
+    },
+    {
+      "company": "Broken Box Interactive",
+      "position": "Producer",
+      "website": "",
+      "startDate": "2007-08-01",
+      "endDate": "2011-10-31",
+      "summary": "Producer of developing media technologies, music videos, and short films. Managed a team of 3-6 Engineers and Designers, responsible for developing technologies from concept to implementation. Once completed the products were utilized to provide interactive media experiences at concerts and live events.",
+      "highlights": [
+        "Held a variety of roles, including product manager, camera & audio operator, designer, and editor.",
+        "Acting Project Lead and Event Coordinator for numerous events and concerts."
+        ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Stetson University",
+      "area": "Business and Computer Information Systems",
+      "studyType": "",
+      "startDate": "2004-08-01",
+      "endDate": "2008-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Product Manager",
+      "level": "Senior",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Python",
+        "SaaS",
+        "Node",
+        "PostgreSQL",
+        "Git",
+        "Jira",
+        "SalesForce"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Cooking",
+        "Carpentry",
+        "Drones"
+      ]
+    }
+  ],
+  "references": []
+}
