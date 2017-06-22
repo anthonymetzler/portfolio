@@ -6,7 +6,7 @@
     "email": "anthony.metzler@gmail.com",
     "phone": "+14155954395",
     "website": "http://ametzler.com",
-    "summary": "I like tech and this is my summary.",
+    "summary": "I have over 7 years of experience in a leadership position working with SaaS platforms. As a product development manager, I’ve consistently lead a variety of cross-functional teams in developing applications and services. My strategy in supporting these product initiatives was to leverage technology, automate and document processes, and engage with stakeholders to manage scope/risk. My success may be attributed to my commitment to empathy and continuous improvement initiatives. Through training and leading by example, I have been able to deliver maximum results.",
     "location": {
       "address": "",
       "postalCode": "94131",
@@ -52,10 +52,10 @@
       "endDate": "2017-02-24",
       "summary": "Directly managed 6-10 Engineers, designed UI/UX requirements and prototypes for numerous new applications, enhancements, and fixes. Served as main customer interface and Scrum Master for multiple engineering projects running in parallel. Leader of cross-functional initiatives driving business development.",
       "highlights": [
-        "Managed the product development of a mobile web and Android application from concept to completion, which supported onboarding new clients resulting in over $50k new MRR.",
+        "Managed the product development of a mobile web and Android application from concept to completion, which supported onboarding new clients.",
         "Oversaw the specification and development of a GraphQL API for integrating multiple platform services.",
         "Developed a Jenkins + Docker CI pipeline for creating release branches, deploying to staging environments, and running test suites — this pipeline decreased pre-deployment time by 50%.",
-        "Lead customer engagement and product development for supporting vital sales objectives necessary to capture over $200k in potential MRR."
+        "Lead customer engagement and product development for supporting vital sales objectives necessary to capture new MRR."
         ]
     },
     {
