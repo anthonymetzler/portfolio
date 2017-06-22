@@ -9,10 +9,36 @@ import AboutSection from './AboutSection';
 import WorkSection from './WorkSection';
 import SkillsSection from './SkillsSection';
 import EducationSection from './EducationSection';
+import {
+  cyan500, cyan700,
+  pinkA200,
+  grey100, grey300, grey400, grey500,
+  white, darkBlack, fullBlack, redA200, teal500, teal700, grey50, red700, red900, indigo700
+} from 'material-ui/styles/colors';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import {fade} from 'material-ui/utils/colorManipulator';
 
 
 injectTapEventPlugin();
 
+const muiTheme = getMuiTheme({
+  palette: {
+    primary1Color: cyan500,
+    primary2Color: indigo700,
+    primary3Color: redA200,
+    accent1Color: redA200,
+    accent2Color: grey400,
+    accent3Color: grey500,
+    textColor: darkBlack,
+    alternateTextColor: white,
+    canvasColor: grey50,
+    borderColor: grey300,
+    disabledColor: fade(darkBlack, 0.3),
+    pickerHeaderColor: cyan500,
+    clockCircleColor: fade(darkBlack, 0.07),
+    shadowColor: fullBlack,
+  },
+});
 
 const App = props => {
   const profileData = props.jsonObj.basics;
@@ -22,7 +48,7 @@ const App = props => {
   const educationData = props.jsonObj.education;
 
   return (
-          <MuiThemeProvider>
+          <MuiThemeProvider muiTheme={muiTheme}>
             <div className="container">
                 <Nav />
                 <ProfileSection profileData={profileData} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import Chip from 'material-ui/Chip';
-import {blue500} from 'material-ui/styles/colors';
+import {cyan500} from 'material-ui/styles/colors';
 
 
 
@@ -19,7 +19,7 @@ const Skills = props => {
       <li key={index}>
         <Chip 
             key={item} 
-            backgroundColor={blue500}
+            backgroundColor={cyan500}
             style={styles.chip} >{item}
         </Chip></li>)
     });
