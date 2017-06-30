@@ -2,13 +2,15 @@ import React from 'react';
 import AppBar from 'material-ui/AppBar';
 
 /**
- * A simple example of `AppBar` with an icon on the right.
- * By default, the left icon is a navigation-menu.
+ * A simple `AppBar` with no icon.
+ * By default, a left icon is a navigation-menu.
  */
+
 const Nav = () => (
   <AppBar
     title=""
     iconClassNameRight="muidocs-icon-navigation-expand-more"
+    showMenuIconButton={false}
   />
 );
 

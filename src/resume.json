@@ -6,7 +6,7 @@
     "email": "anthony.metzler@gmail.com",
     "phone": "+14155954395",
     "website": "http://ametzler.com",
-    "summary": "I have over 7 years of experience in a leadership position working with SaaS platforms. As a product development manager, I’ve consistently lead a variety of cross-functional teams in developing applications and services. My strategy in supporting these product initiatives was to leverage technology, automate and document processes, and engage with stakeholders to manage scope/risk. My success may be attributed to my commitment to empathy and continuous improvement initiatives. Through training and leading by example, I have been able to deliver maximum results.",
+    "summary": "Creating elegant solutions and designing forward-thinking products are some of my greatest professional passions. In my personal life, I'm always tinkering on things and completing a variety of projects. I love exploring the interworkings of all things mechanical and technological. I'm driven my a strong sense of curiousity and wonderment about the world. In my professional life, I’ve consistently lead a variety of cross-functional teams in developing applications and services. I have a background in a variety of industries spanning from media, healthcare, and hospitality. I attribute my success to my commitment to empathy and continuous improvement initiatives.",
     "location": {
       "address": "",
       "postalCode": "94131",
@@ -16,19 +16,14 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "anthonymetzler",
-        "url": ""
-      },
-      {
         "network": "Github",
         "username": "anthonymetzler",
-        "url": "https://github.com/anthonyetzler"
+        "url": "https://github.com/anthonymetzler"
       },
       {
         "network": "LinkedIn",
         "username": "anthonymetzler",
-        "url": ""
+        "url": "https://www.linkedin.com/in/anthonymetzler/"
       }
     ]
   },
@@ -39,9 +34,9 @@
       "website": "http://metz.tech",
       "startDate": "2017-02-27",
       "endDate": "",
-      "summary": "Heading R&D of SaaS solutions for automating workflows and providing technical consultation and development for external clients.",
+      "summary": "Heading R&D of SaaS solutions to automate workflows. Also, providing technical consultation and development for external clients.",
       "highlights": [
-        "Prototyping a collection of services to power a mobile-focused inventory management platform."
+        "Prototyping a mobile-focused inventory management platform."
         ]
     },
     {
@@ -116,30 +111,74 @@
       "institution": "Stetson University",
       "area": "Business and Computer Information Systems",
       "studyType": "",
-      "startDate": "2004-08-01",
-      "endDate": "2008-12-31",
+      "startDate": "",
+      "endDate": "",
       "gpa": "",
-      "courses": []
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Codecademy",
+      "area": "Web Development",
+      "studyType": "",
+      "startDate": "2014-01-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Python",
+        "JavaScript",
+        "React",
+        "SQL",
+        "HTML & CSS"
+      ]
     }
   ],
   "awards": [],
   "publications": [],
   "skills": [
     {
-      "name": "Product Manager",
-      "level": "Senior",
+      "name": "Technical Skills",
+      "level": "",
       "keywords": [
+        "Python",
+        "Microsoft Office",
+        "Zapier",
+        "Google Apps",
+        "AWS",
+        "Google Cloud",
+        "FireBase",
+        "GraphQL",
+        "Django",
+        "Selenium",
+        "Docker",
+        "SauceLabs",
+        "BrowserStack",
+        "Intercom",
+        "Google Analytics",
+        "Vimeo",
+        "Adobe Creative Suite",
+        "Final Cut",
+        "SQL",
+        "SaaS",
         "HTML",
         "CSS",
-        "Javascript",
+        "JavaScript",
         "React",
-        "Python",
-        "SaaS",
-        "Node",
-        "PostgreSQL",
+        "Node,js",
         "Git",
         "Jira",
         "SalesForce"
+      ]
+    },
+    {
+      "name": "Areas of Expertise",
+      "level": "",
+      "keywords": [
+        "Product Management",
+        "Business Development",
+        "Data Analytics",
+        "Agile Methodologies",
+        "Project Management"
       ]
     }
   ],

@@ -2,31 +2,34 @@ import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import Nav from '../components/Nav';
+
+import {
+  cyan300, cyan500, cyan700, red400, 
+  grey50, grey300, grey400, grey500,
+  white, darkBlack, fullBlack
+} from 'material-ui/styles/colors';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import { fade } from 'material-ui/utils/colorManipulator';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+
 import ProfileSection from './ProfileSection';
 import AboutSection from './AboutSection';
 import WorkSection from './WorkSection';
 import SkillsSection from './SkillsSection';
 import EducationSection from './EducationSection';
-import {
-  cyan500, cyan700,
-  pinkA200,
-  grey100, grey300, grey400, grey500,
-  white, darkBlack, fullBlack, redA200, teal500, teal700, grey50, red700, red900, indigo700
-} from 'material-ui/styles/colors';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {fade} from 'material-ui/utils/colorManipulator';
 
+
+import Nav from '../components/Nav';
 
 injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({
+  fontFamily: 'Roboto, Droid Sans, sans-serif',
   palette: {
-    primary1Color: cyan500,
-    primary2Color: indigo700,
-    primary3Color: redA200,
-    accent1Color: redA200,
+    primary1Color: cyan300,
+    primary2Color: cyan500,
+    primary3Color: cyan700,
+    accent1Color: red400,
     accent2Color: grey400,
     accent3Color: grey500,
     textColor: darkBlack,
@@ -48,21 +51,21 @@ const App = props => {
   const educationData = props.jsonObj.education;
 
   return (
-          <MuiThemeProvider muiTheme={muiTheme}>
-            <div className="container">
-                <Nav />
-                <ProfileSection profileData={profileData} />
-                <AboutSection aboutData={aboutData} />
-                <WorkSection workData={workData} />
-                <SkillsSection skillsData={skillsData} />
-                <EducationSection educationData={educationData} />
-            </div>
-          </MuiThemeProvider>
-    )
+    <MuiThemeProvider muiTheme={muiTheme}>
+      <div className="container">
+        {/*<Nav />*/}
+        <ProfileSection profileData={profileData} />
+        <AboutSection aboutData={aboutData} />
+        <SkillsSection skillsData={skillsData} />
+        <WorkSection workData={workData} />
+        <EducationSection educationData={educationData} />
+      </div>
+    </MuiThemeProvider>
+  )
 };
 
 App.propTypes = {
-    jsonObj: PropTypes.object.isRequired
+  jsonObj: PropTypes.object.isRequired
 }
 
 export default App;
