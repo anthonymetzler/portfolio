@@ -6,7 +6,7 @@
     "email": "anthony.metzler@gmail.com",
     "phone": "+14155954395",
     "website": "http://ametzler.com",
-    "summary": "Creating elegant solutions and designing forward-thinking products are some of my greatest professional passions. In my personal life, I'm always tinkering on things and completing a variety of projects. I love exploring the interworkings of all things mechanical and technological. I'm driven my a strong sense of curiousity and wonderment about the world. In my professional life, I’ve consistently lead a variety of cross-functional teams in developing applications and services. I have a background in a variety of industries spanning from media, healthcare, and hospitality. I attribute my success to my commitment to empathy and continuous improvement initiatives.",
+    "summary": "Creating elegant solutions and designing forward-thinking products are some of my professional passions. In my personal life, I'm always tinkering and working on a variety of projects; I love exploring the interworkings of all things mechanical and technological. I have a strong sense of curiousity and an entrepreneurial drive. Professionally I’ve lead a variety of cross-functional teams in developing software and digital media.",
     "location": {
       "address": "",
       "postalCode": "94131",
@@ -29,28 +29,17 @@
   },
   "work": [
     {
-      "company": "Metz Tech",
-      "position": "Product Development Manager",
-      "website": "http://metz.tech",
-      "startDate": "2017-02-27",
-      "endDate": "",
-      "summary": "Heading R&D of SaaS solutions to automate workflows. Also, providing technical consultation and development for external clients.",
-      "highlights": [
-        "Prototyping a mobile-focused inventory management platform."
-        ]
-    },
-    {
       "company": "ClearCare",
       "position": "Product Engineering Manager",
       "website": "http://clearcareonline.com",
       "startDate": "2016-09-01",
       "endDate": "2017-02-24",
-      "summary": "Directly managed 6-10 Engineers, designed UI/UX requirements and prototypes for numerous new applications, enhancements, and fixes. Served as main customer interface and Scrum Master for multiple engineering projects running in parallel. Leader of cross-functional initiatives driving business development.",
+      "summary": "Directly managed and lead a team of 6-10 Engineers, gathered product requirements, designed new products and enhancements, and managed the software development lifecycle. Served as the point of contact for customers and partners regarding multiple engineering projects running in parallel. Leader of cross-functional initiatives driving product launches and strategic partnerships.",
       "highlights": [
-        "Managed the product development of a mobile web and Android application from concept to completion, which supported onboarding new clients.",
-        "Oversaw the specification and development of a GraphQL API for integrating multiple platform services.",
-        "Developed a Jenkins + Docker CI pipeline for creating release branches, deploying to staging environments, and running test suites — this pipeline decreased pre-deployment time by 50%.",
-        "Lead customer engagement and product development for supporting vital sales objectives necessary to capture new MRR."
+        "Managed the development of a mobile app from design to completion; this supported the onboarding of key clients resulting in new MRR.",
+        "Lead customer engagement and product management, which laid the groundwork for vital sales strategies targeting new market MRR.",
+        "Oversaw the buildout of a new API that bolstered the platform’s service integrations and scalability.",
+        "Developed a Continuous Integration pipeline for creating release branches, deploying to staging environments, and running tests— this pipeline decreased pre-deployment time by 50%."
         ]
     },
     {
@@ -59,11 +48,11 @@
       "website": "http://clearcareonline.com",
       "startDate": "2015-04-01",
       "endDate": "2016-08-31",
-      "summary": "As head of Quality Assurance, managed a team of 3-5 QA Engineers in developing test strategies, frameworks, and software quality standards. Acted as the Release Manager responsible for git flow, testing, authoring release notes, and near-daily production deployments. Collaborated upstream with the product team to ensure quality during sprint planning and story elaborations.",
+      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA Engineers responsible for: writing automated tests, architecting frameworks, and documenting software quality standards. Acted as the Release Manager responsible for git flow, testing, authoring release notes, and near-daily production deployments. Collaborated upstream with Product Managers during sprint planning and story elaborations.",
       "highlights": [
         "Awarded the ClearCare Hero Award, company wide recognition for excellence.",
-        "Directed the completion and operation of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating our test strategy it decreased manual testing time by 75%.",
-        "Oversaw quality of partner integrations and data, including Harvard Medical, Stanford, industry franchisors, payment processing vendors, and background check providers."
+        "Directed the design and completion of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
+        "Oversaw the successful launch of partner integrations, including: Harvard Medical, Stanford, enterprise customers, payment processing vendors, and background check providers."
         ]
     },
     {
@@ -72,10 +61,10 @@
       "website": "http://clearcareonline.com",
       "startDate": "2013-03-14",
       "endDate": "2015-03-31",
-      "summary": "Managed a team of QA Testers, responsible for writing test cases, manual testing, and completing 100+ test cases on weekly releases. Oversaw office IT infrastructure such as hardware, networking, and vendors. Served as a cross-functional technical resource and IT Administrator. Managed the verification, triaging, and escalation of all reported issues.",
+      "summary": "Managed a team of QA Testers responsible for writing test cases, manually testing, and defining product requirements. Oversaw office IT infrastructure, such as: hardware, networking, and vendor services. Served as a  cross-functional technical resource and head Administrator.",
       "highlights": [
-        "Documented product enhancements and fixes as well as provided product demos and training.",
-        "Acted as the project lead for writing, producing, and deploying product training videos, in order to assist with scaling the customer onboarding and success teams.",
+        "Headed internal communications relating to product changes by writing documentation, producing walkthroughs & videos, providing feature demos, and leading trainings.",
+        "Managed the verification, triaging, and escalation of all reported product issues.",
         "Researched, implemented, and administered numerous software solutions, including: Salesforce, Zuora, JIRA, Confluence, LucidChart, Influitive, Adobe Cloud, and more." 
         ]
     },
@@ -85,11 +74,12 @@
       "website": "",
       "startDate": "2009-04-01",
       "endDate": "2013-03-14",
-      "summary": "Lead a team of 3-8 Engineers and Business Development Managers in defining, developing, and completing a B2B SaaS application. Headed business strategy, product design, and operations. Developed websites, user interfaces, and marketing materials.",
+      "summary": "Lead a team of Business Development Managers, Designers, and Engineers in developing a B2B SaaS application. Acted as project manager from conception to product launch. Headed product positioning, user experience, quality assurance, and business operations. Created websites, designs, and marketing materials.",
       "highlights": [
-        "Oversaw the development of a cloud POS platform with integrated mobile orders; software application was taken from concept to an operational Beta pilot.",
-        "Awarded the Entrepreneurial Award for student affiliated startup by Stetson University.",
-        "Completed a round of seed funding for the business."
+        "Defined the product vision of new cloud POS platform with integrated mobile orders and payments.",
+        "Designed product features, wrote feature requirements, and oversaw the product roadmap.",
+        "Awarded the Entrepreneurial Award for a student affiliated startup by Stetson University.",
+        "Completed a round of seed funding for the start-up."
         ]
     },
     {
@@ -98,10 +88,11 @@
       "website": "",
       "startDate": "2007-08-01",
       "endDate": "2011-10-31",
-      "summary": "Producer of developing media technologies, music videos, and short films. Managed a team of 3-6 Engineers and Designers, responsible for developing technologies from concept to implementation. Once completed the products were utilized to provide interactive media experiences at concerts and live events.",
+      "summary": "Headed numerous media projects involving technology and video production. Directly managed a team of 3-6 Designers and Engineers, responsible for developing and implementing digital media. As development completed, the software and media were utilized in providing interactive experiences at live events. Lead business development, marketing, operations, and product vision.",
       "highlights": [
-        "Held a variety of roles, including product manager, camera & audio operator, designer, and editor.",
-        "Acting Project Lead and Event Coordinator for numerous events and concerts."
+        "Fulfilled a variety of roles, including: product manager, camera & audio operator, designer, web developer, and video editor.",
+        "Acted as project lead and head coordinator for numerous events, concerts, and productions.",
+        "Drove customer and partner relations, I was main point of contact for vendors, sponsors, and stakeholders."
         ]
     }
   ],
@@ -121,15 +112,15 @@
       "institution": "Codecademy",
       "area": "Web Development",
       "studyType": "",
-      "startDate": "2014-01-01",
+      "startDate": "",
       "endDate": "",
       "gpa": "",
       "courses": [
-        "Python",
+        "HTML & CSS",
         "JavaScript",
-        "React",
+        "Python",
         "SQL",
-        "HTML & CSS"
+        "React"        
       ]
     }
   ],
@@ -137,48 +128,40 @@
   "publications": [],
   "skills": [
     {
-      "name": "Technical Skills",
-      "level": "",
-      "keywords": [
-        "Python",
-        "Microsoft Office",
-        "Zapier",
-        "Google Apps",
-        "AWS",
-        "Google Cloud",
-        "FireBase",
-        "GraphQL",
-        "Django",
-        "Selenium",
-        "Docker",
-        "SauceLabs",
-        "BrowserStack",
-        "Intercom",
-        "Google Analytics",
-        "Vimeo",
-        "Adobe Creative Suite",
-        "Final Cut",
-        "SQL",
-        "SaaS",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Node,js",
-        "Git",
-        "Jira",
-        "SalesForce"
-      ]
-    },
-    {
       "name": "Areas of Expertise",
       "level": "",
       "keywords": [
-        "Product Management",
+        "Project Management",
+        "Product Vision",
+        "UI/UX Design",
         "Business Development",
         "Data Analytics",
         "Agile Methodologies",
-        "Project Management"
+        "Quality Assurance"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "Javascript",
+        "Python",
+        "SQL",
+        "React",
+        "Git",
+        "Selenium",
+        "BDD",
+        "AWS",
+        "Google Cloud",
+        "Docker",
+        "Jira",
+        "SmartSheets",
+        "SalesForce",
+        "Google Analytics",
+        "Microsoft Office",
+        "Adobe Creative Suite",
+        "Sketch"
       ]
     }
   ],

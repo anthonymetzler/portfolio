@@ -12,8 +12,8 @@ const styles = {
 };
 
 const Skills = props => {
-  const techSkills = props.skillsData[0];
-  const skills = props.skillsData[1];
+  const skills = props.skillsData[0];
+  const techSkills = props.skillsData[1];
 
   const getSkills = skill => {
     const buildSkillList = skill.keywords.map(function (item, index) {
@@ -34,13 +34,13 @@ const Skills = props => {
         <FontAwesome className='fa-code' name='code' size='2x' style={{ padding: 3 }} />
         Skills
         </h2>
-      <h3 className="text-uppercase" style={styles.chip}>{techSkills.name}</h3>
-      <ul className="skills-list list-inline">
-        {getSkills(techSkills)}
-      </ul>
       <h3 className="text-uppercase" style={styles.chip}>{skills.name}</h3>
       <ul className="skills-list list-inline">
         {getSkills(skills)}
+      </ul>
+      <h3 className="text-uppercase" style={styles.chip}>{techSkills.name}</h3>
+      <ul className="skills-list list-inline">
+        {getSkills(techSkills)}
       </ul>
     </div>
   )
