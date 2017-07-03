@@ -31,9 +31,9 @@ const Education = props => {
       <div key={index}>
         <h3>{item.institution}<em>{getDates(item)}</em></h3>
         <h4>{item.studyType} {item.area}</h4>
-        <p>
+        <div>
           <ul className="list-inline">{getCourses}</ul>
-        </p>
+        </div>
 
       </div>
     )
