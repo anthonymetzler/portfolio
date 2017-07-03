@@ -19,7 +19,7 @@ import SkillsSection from './SkillsSection';
 import EducationSection from './EducationSection';
 
 
-import Nav from '../components/Nav';
+import NavMenu from './NavMenu';
 
 injectTapEventPlugin();
 
@@ -53,7 +53,7 @@ const App = props => {
   return (
     <MuiThemeProvider muiTheme={muiTheme}>
       <div className="container">
-        {/*<Nav />*/}
+        <NavMenu />
         <ProfileSection profileData={profileData} />
         <AboutSection aboutData={aboutData} />
         <SkillsSection skillsData={skillsData} />
