@@ -4,9 +4,9 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
 import {
-  cyan300, cyan500, cyan700, red400, 
-  grey50, grey300, grey400, grey500,
-  white, darkBlack, fullBlack
+  cyan800, cyan500, cyan900, redA200, redA100, redA400,
+  grey50, grey200, grey300, grey400, grey500,
+  white, darkBlack, fullBlack, black
 } from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { fade } from 'material-ui/utils/colorManipulator';
@@ -24,20 +24,20 @@ import NavMenu from './NavMenu';
 injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({
-  fontFamily: 'Roboto, Droid Sans, sans-serif',
+  fontFamily: 'Montserrat, Hind, sans-serif',
   palette: {
-    primary1Color: cyan300,
-    primary2Color: cyan500,
-    primary3Color: cyan700,
-    accent1Color: red400,
-    accent2Color: grey400,
-    accent3Color: grey500,
-    textColor: darkBlack,
-    alternateTextColor: white,
+    primary1Color: grey200,
+    primary2Color: grey50,
+    primary3Color: grey400,
+    accent1Color: redA200,
+    accent2Color: redA100,
+    accent3Color: redA400,
+    textColor: black,
+    alternateTextColor: black,
     canvasColor: grey50,
     borderColor: grey300,
     disabledColor: fade(darkBlack, 0.3),
-    pickerHeaderColor: cyan500,
+    pickerHeaderColor: white,
     clockCircleColor: fade(darkBlack, 0.07),
     shadowColor: fullBlack,
   },
@@ -53,7 +53,7 @@ const App = props => {
   return (
     <MuiThemeProvider muiTheme={muiTheme}>
       <div className="container">
-        <NavMenu />
+        <NavMenu profileData={profileData}/>
         <ProfileSection profileData={profileData} />
         <AboutSection aboutData={aboutData} />
         <SkillsSection skillsData={skillsData} />

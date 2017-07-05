@@ -9,8 +9,7 @@ const ProfileHeader = props => {
   const profileObj = props.profileData;
   return <div style={style}>
     <Avatar src={profileObj.picture} size={250} />
-    <h1>{profileObj.name}</h1>
-    <h2>{profileObj.label}</h2>
+    <h1>{profileObj.label}</h1>
   </div>
 };
 

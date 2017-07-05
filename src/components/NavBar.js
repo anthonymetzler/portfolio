@@ -3,7 +3,11 @@ import AppBar from 'material-ui/AppBar';
 
 const NavBar = props => {
   return (
-    <AppBar onLeftIconButtonTouchTap={props.toggleMenu}/>
+    <AppBar
+      title={props.title}
+      onLeftIconButtonTouchTap={props.toggleMenu}
+      iconElementRight={props.iconElementRight}  
+    />
     )
   }
 
