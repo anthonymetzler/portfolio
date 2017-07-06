@@ -2,25 +2,20 @@ import React from 'react';
 import Paper from 'material-ui/Paper';
 
 import Education from '../components/Education';
+import Sheet from '../components/Sheet';
 
-const style = {
-  height: '100%',
-  width: '100%',
-  margin: 0,
-  textAlign: 'left',
-  display: 'inline-block',
-};
-
-const EducationSection = props => {
-  const educationData = props.educationData;
-
-  return (
-    <div>
-      <Paper style={style} zDepth={1}>
-        <Education educationData={educationData} />
-      </Paper>
-    </div>
-  );
-};
-
-export default EducationSection;
+export default class EducationSection extends React.Component {
+  constructor(props) {
+    super(props);
+    const educationData = props.educationData;
+  }
+  render () {
+    return (
+      <div>
+        <Sheet zDepth={1}>
+          <Education educationData={this.props.educationData} />
+        </Sheet>
+      </div>
+    )
+  }
+}

@@ -1,15 +1,25 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
 
-const style = {
-  margin: 25
+const styles = {
+  main: {
+    padding: '20px',
+    textAlign: 'justify'
+  },
+  inlineIcon : {
+    paddingRight: '10px',
+    color: '#c50e29'
+  },
+  h2: {
+    marginBottom: '15px'
+  },
 };
 
 const About = props => {
   return (
-    <div style={style}>
-      <h2 className="text-uppercase">
-        <FontAwesome name='user' size='2x' style={{ padding: 3 }} />
+    <div style={styles.main}>
+      <h2 style={styles.h2}>
+        <FontAwesome name='user' size='lg' style={styles.inlineIcon} />
         About
       </h2>
       <div>{props.aboutData}</div>

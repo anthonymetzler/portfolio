@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './containers/App';
-
-require('bootstrap-loader');
+import App from './pages/App';
 
 const json = require('./resume.json');
 

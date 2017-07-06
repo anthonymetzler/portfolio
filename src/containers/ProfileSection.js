@@ -1,29 +1,20 @@
 import React from 'react';
-import Divider from 'material-ui/Divider';
-import Paper from 'material-ui/Paper';
 
 import ProfileHeader from '../components/ProfileHeader';
-import ProfileContact from '../components/ProfileContact';
+import Sheet from '../components/Sheet';
 
-const style = {
-  height: '100%',
-  width: '100%',
-  margin: 0,
-  textAlign: 'center',
-  display: 'inline-block',
-};
-
-const ProfileSection = props => {
-  const profileData = props.profileData;
-
-  return (
+export default class ProfileSection extends React.Component {
+  constructor(props) {
+    super(props);
+    const profileData = props.profileData;
+  }
+  render() {
+    return (
     <div>
-      <Paper style={style} zDepth={1}>
-        <ProfileHeader profileData={profileData} />
-        <ProfileContact profileData={profileData} />
-      </Paper>
+      <Sheet zDepth={1}>
+        <ProfileHeader profileData={this.props.profileData} />
+      </Sheet>
     </div>
-  );
-};
-
-export default ProfileSection;
+    )
+  }
+}

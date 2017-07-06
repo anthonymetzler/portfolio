@@ -1,4 +1,5 @@
 import React from 'react';
+
 import NavBar from '../components/NavBar';
 import NavDrawer from '../components/NavDrawer';
 import Logo from '../components/Logo'
@@ -19,9 +20,9 @@ export default class NavMenu extends React.Component {
     return (
       <div>
         <NavBar
-          title='Anthony Metzler'
+          title={this.props.profileData.name}
           toggleMenu={this.handleToggle.bind(this)}
-          iconElementRight={<Logo logo={this.props.profileData.logo}/>}
+          logoIcon={<Logo logo={this.props.profileData.logo}/>}
         />
         <NavDrawer
           docked={false}

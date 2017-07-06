@@ -1,10 +1,36 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import moment from 'moment';
+import Chip from 'material-ui/Chip';
 
-const style = {
-  margin: 25
-};
+
+const styles = {
+  main: {
+    padding: '20px',
+  },
+  inlineIcon : {
+    paddingRight: '10px',
+    color: '#c50e29'
+  },
+  chip: {
+    margin: '3px'
+  },
+  list: {
+    listStyleType: 'none',
+    margin: '0 auto',
+    padding: '0px',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap'
+  },
+  h2: {
+    marginBottom: '0px'
+  },
+  h3: {
+    display: 'inline-block',
+    marginBottom: '0px'
+  }
+}
 
 const Education = props => {
   const getEducation = props.educationData.map(function (item, index) {
@@ -24,15 +50,24 @@ const Education = props => {
     };
 
     const getCourses = item.courses.map(function (item, index) {
-      return (<li key={index}>{item}</li>)
+      return (
+        <li key={index}>
+          <Chip key={item} style={styles.chip}>
+            {item}
+          </Chip>
+        </li>
+      )
     });
 
     return (
       <div key={index}>
-        <h3>{item.institution}<em>{getDates(item)}</em></h3>
-        <h4>{item.studyType} {item.area}</h4>
         <div>
-          <ul className="list-inline">{getCourses}</ul>
+          <h3 style={styles.h3}>{item.institution}</h3>
+          <em>{getDates(item)}</em>
+          <div>{item.studyType} {item.area}</div>
+        </div>
+        <div>
+          <ul style={styles.list}>{getCourses}</ul>
         </div>
 
       </div>
@@ -40,9 +75,9 @@ const Education = props => {
   });
 
   return (
-    <div style={style}>
-      <h2 className="text-uppercase">
-        <FontAwesome className='fa-user' name='mortar-board' size='2x' style={{ padding: 3 }} />
+    <div style={styles.main}>
+      <h2 style={styles.h2}>
+        <FontAwesome className='fa-user' name='mortar-board' size='lg' style={styles.inlineIcon} />
         Education
       </h2>
       {getEducation}

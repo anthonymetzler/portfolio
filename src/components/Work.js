@@ -2,8 +2,18 @@ import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import WorkItem from './WorkItem';
 
-const style = { 
-  margin: 25
+const styles = {
+  main: {
+    padding: '20px',
+    textAlign: 'justify'
+  },
+  inlineIcon : {
+    paddingRight: '10px',
+    color: '#c50e29'
+  },
+  h2: {
+    marginBottom: '5px'
+  }
 };
 
 const Work = props => {
@@ -16,9 +26,9 @@ const Work = props => {
   }
 
   return (
-    <div style={style}>
-      <h2 className="text-uppercase">
-        <FontAwesome className='fa-user' name='building' size='2x' style={{ padding: 3 }} />
+    <div style={styles.main}>
+      <h2 style={styles.h2}>
+        <FontAwesome className='fa-user' name='building' size='lg' style={styles.inlineIcon} />
         Work experience
       </h2>
       {getWorkExperience()}

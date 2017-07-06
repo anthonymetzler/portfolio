@@ -3,11 +3,23 @@ import Chip from 'material-ui/Chip';
 import FontAwesome from 'react-fontawesome';
 
 const styles = {
-  chip: {
-    margin: 4
+  main: {
+    padding: '20px',
   },
-  skills: {
-    margin: 25
+  inlineIcon : {
+    paddingRight: '10px',
+    color: '#c50e29'
+  },
+  chip: {
+    margin: '3px'
+  },
+  list: {
+    listStyleType: 'none',
+    margin: '0 auto',
+    padding: '0px',
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap'
   }
 };
 
@@ -29,17 +41,17 @@ const Skills = props => {
   }
 
   return (
-    <div style={styles.skills}>
-      <h2 className="text-uppercase">
-        <FontAwesome className='fa-code' name='code' size='2x' style={{ padding: 3 }} />
+    <div style={styles.main}>
+      <h2>
+        <FontAwesome className='fa-code' name='code' size='lg' style={styles.inlineIcon} />
         Skills
-        </h2>
+      </h2>
       <h3 className="text-uppercase" style={styles.chip}>{skills.name}</h3>
-      <ul className="skills-list list-inline">
+      <ul style={styles.list}>
         {getSkills(skills)}
       </ul>
       <h3 className="text-uppercase" style={styles.chip}>{techSkills.name}</h3>
-      <ul className="skills-list list-inline">
+      <ul style={styles.list}>
         {getSkills(techSkills)}
       </ul>
     </div>

@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Sheet from '../components/Sheet';
 
 
 import {
@@ -12,14 +13,14 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { fade } from 'material-ui/utils/colorManipulator';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-import ProfileSection from './ProfileSection';
-import AboutSection from './AboutSection';
-import WorkSection from './WorkSection';
-import SkillsSection from './SkillsSection';
-import EducationSection from './EducationSection';
+import ProfileSection from '../containers/ProfileSection';
+import AboutSection from '../containers//AboutSection';
+import WorkSection from '../containers//WorkSection';
+import SkillsSection from '../containers//SkillsSection';
+import EducationSection from '../containers//EducationSection';
 
 
-import NavMenu from './NavMenu';
+import NavMenu from '../containers//NavMenu';
 
 injectTapEventPlugin();
 
@@ -43,6 +44,13 @@ const muiTheme = getMuiTheme({
   },
 });
 
+const style = {
+  minWidth: '480px',
+  maxWidth: '1280px',
+  width: '80%',
+  margin: '0 auto',
+}
+
 const App = props => {
   const profileData = props.jsonObj.basics;
   const aboutData = profileData.summary;
@@ -52,14 +60,14 @@ const App = props => {
 
   return (
     <MuiThemeProvider muiTheme={muiTheme}>
-      <div className="container">
+      <Sheet style={style}>
         <NavMenu profileData={profileData}/>
         <ProfileSection profileData={profileData} />
         <AboutSection aboutData={aboutData} />
         <SkillsSection skillsData={skillsData} />
         <WorkSection workData={workData} />
         <EducationSection educationData={educationData} />
-      </div>
+      </Sheet>
     </MuiThemeProvider>
   )
 };

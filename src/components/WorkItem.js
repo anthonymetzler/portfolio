@@ -1,6 +1,12 @@
 import React from 'react';
 import moment from 'moment';
 
+const styles = {
+  h3: {
+    marginBottom: '0px',
+  }
+}
+
 const WorkItem = props => {
   const getWorkDates = () => {
     const startdate = moment(props.workItemData.startDate).format('MMM, YYYY');
@@ -20,8 +26,10 @@ const WorkItem = props => {
 
   return (
     <div className="workItem">
-      <h3>{props.workItemData.position}, <span>{props.workItemData.company}</span></h3>
-      <p className="workDates">{getWorkDates()}</p>
+      <h3 style={styles.h3}>{props.workItemData.position}, <span>{props.workItemData.company}</span></h3>
+      <div>
+        <em>{getWorkDates()}</em>
+      </div>
       <p>{props.workItemData.summary}</p>
       <ul>
         {getHighlights}

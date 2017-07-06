@@ -1,20 +1,25 @@
 import React from 'react';
 import Drawer from 'material-ui/Drawer';
-import SiteMenu from './SiteMenu';
+import Menu from 'material-ui/Menu';
+import MenuItem from 'material-ui/MenuItem';
 
-export default class NavDrawer extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render () {
-    return (
+const NavDrawer = props => {
+  return (
     <Drawer
-      docked={this.props.docked}
-      open={this.props.open}
-      onRequestChange={this.props.onRequestChange}
+      docked={props.docked}
+      open={props.open}
+      onRequestChange={props.onRequestChange}
     >
-      <SiteMenu touchTap={this.props.close}/>
+      <Menu>
+        <MenuItem onTouchTap={props.close} disabled={true}>
+          Portfolio (Coming Soon)
+        </MenuItem>
+        <MenuItem onTouchTap={props.close} disabled={true}>
+          Blog (Coming Soon)
+        </MenuItem>
+      </Menu>
     </Drawer>
     )
   }
-}
+
+export default NavDrawer;
