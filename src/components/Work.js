@@ -12,7 +12,10 @@ const styles = {
     color: '#c50e29'
   },
   h2: {
-    marginBottom: '5px'
+    marginBottom: '5px',
+    fontSize: '20px',
+    marginTop: '10px',
+    color: '#212121'
   }
 };
 
@@ -29,7 +32,7 @@ const Work = props => {
     <div style={styles.main}>
       <h2 style={styles.h2}>
         <FontAwesome className='fa-user' name='building' size='lg' style={styles.inlineIcon} />
-        Work experience
+        Work Experience
       </h2>
       {getWorkExperience()}
     </div>
