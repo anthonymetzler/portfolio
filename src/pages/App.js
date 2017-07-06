@@ -23,7 +23,7 @@ import WorkSection from '../containers/WorkSection';
 injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({
-  fontFamily: 'Montserrat, Hind, sans-serif',
+  fontFamily: 'Roboto, Roboto Slab, sans-serif',
   palette: {
     primary1Color: grey200,
     primary2Color: grey50,
