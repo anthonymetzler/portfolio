@@ -3,7 +3,9 @@ import moment from 'moment';
 
 const styles = {
   h3: {
-    marginBottom: '0px',
+    fontSize: '16px',
+    fontWeight: '700',
+    marginBottom: '0px'
   }
 }
 

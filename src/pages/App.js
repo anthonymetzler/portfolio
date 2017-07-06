@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import Sheet from '../components/Sheet';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 
 import {
@@ -10,17 +9,16 @@ import {
   white, darkBlack, fullBlack, black
 } from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { fade } from 'material-ui/utils/colorManipulator';
-import injectTapEventPlugin from 'react-tap-event-plugin';
+import Sheet from '../components/Sheet';
 
+import AboutSection from '../containers/AboutSection';
+import EducationSection from '../containers/EducationSection';
+import NavMenu from '../containers/NavMenu';
 import ProfileSection from '../containers/ProfileSection';
-import AboutSection from '../containers//AboutSection';
-import WorkSection from '../containers//WorkSection';
-import SkillsSection from '../containers//SkillsSection';
-import EducationSection from '../containers//EducationSection';
-
-
-import NavMenu from '../containers//NavMenu';
+import SkillsSection from '../containers/SkillsSection';
+import WorkSection from '../containers/WorkSection';
 
 injectTapEventPlugin();
 

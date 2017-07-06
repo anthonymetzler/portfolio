@@ -7,6 +7,9 @@ const styles = {
     padding: '20px',
     textAlign: 'center'
   },
+  link: {
+    color: '#0097A7'
+  },
   list: {
     listStyleType: 'none',
     margin: '0px',
@@ -16,6 +19,7 @@ const styles = {
     paddingBottom: '10px'
   },
   inlineIcon: {
+    color:'#C50E29',
     paddingRight: '5px'
   },
   socialIcon: {
@@ -36,13 +40,13 @@ const ProfileHeader = props => {
         </li>
         <li>
           <FontAwesome name='envelope' size='lg' style={styles.inlineIcon} />
-          <a href={'mailto:' + profileObj.email}>{profileObj.email}</a>
+          <a style={styles.link} href={'mailto:' + profileObj.email}>{profileObj.email}</a>
         </li>
         <li>
-          <a href={profileObj.profiles[0].url}>
+          <a style={styles.link} href={profileObj.profiles[0].url}>
             <FontAwesome name='github' size='2x' style={styles.socialIcon} />
           </a>
-          <a href={profileObj.profiles[1].url}>
+          <a style={styles.link} href={profileObj.profiles[1].url}>
             <FontAwesome name='linkedin' size='2x' style={styles.socialIcon} />
           </a>
         </li>

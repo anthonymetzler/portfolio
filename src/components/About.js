@@ -11,7 +11,10 @@ const styles = {
     color: '#c50e29'
   },
   h2: {
-    marginBottom: '15px'
+    marginBottom: '15px',
+    fontSize: '20px',
+    marginTop: '10px',
+    color: '#212121'
   },
 };
 

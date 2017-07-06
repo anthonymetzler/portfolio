@@ -1,8 +1,9 @@
 import React from 'react';
 
+import Logo from '../components/Logo'
 import NavBar from '../components/NavBar';
 import NavDrawer from '../components/NavDrawer';
-import Logo from '../components/Logo'
+
 
 export default class NavMenu extends React.Component {
   constructor(props) {

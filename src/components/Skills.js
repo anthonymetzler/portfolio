@@ -20,6 +20,16 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap'
+  },
+  h2: {
+    fontSize: '20px',
+    marginTop: '10px',
+    color: '#212121'
+  },
+  h3: {
+    fontSize: '16px',
+    fontWeight: '700',
+    marginBottom: '0px'
   }
 };
 
@@ -42,15 +52,15 @@ const Skills = props => {
 
   return (
     <div style={styles.main}>
-      <h2>
+      <h2 style={styles.h2}>
         <FontAwesome className='fa-code' name='code' size='lg' style={styles.inlineIcon} />
         Skills
       </h2>
-      <h3 className="text-uppercase" style={styles.chip}>{skills.name}</h3>
+      <h3 style={styles.h3}>{skills.name}</h3>
       <ul style={styles.list}>
         {getSkills(skills)}
       </ul>
-      <h3 className="text-uppercase" style={styles.chip}>{techSkills.name}</h3>
+      <h3 style={styles.h3}>{techSkills.name}</h3>
       <ul style={styles.list}>
         {getSkills(techSkills)}
       </ul>

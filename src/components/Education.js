@@ -24,10 +24,15 @@ const styles = {
     flexWrap: 'wrap'
   },
   h2: {
-    marginBottom: '0px'
+    marginBottom: '0px',
+    fontSize: '20px',
+    marginTop: '10px',
+    color: '#212121'
   },
   h3: {
     display: 'inline-block',
+    fontSize: '16px',
+    fontWeight: '700',
     marginBottom: '0px'
   }
 }
