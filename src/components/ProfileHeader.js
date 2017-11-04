@@ -31,7 +31,7 @@ const ProfileHeader = props => {
   const profileObj = props.profileData;
   return (
     <div style={styles.main}>
-      <Avatar src={profileObj.picture} size={250} />
+      <Avatar src={profileObj.picture} size={225} />
       <h1>{profileObj.label}</h1>
       <ul style={styles.list}>
         <li style={styles.listItem}>
