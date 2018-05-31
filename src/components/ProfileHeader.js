@@ -1,5 +1,4 @@
 import React from 'react';
-import Avatar from 'material-ui/Avatar';
 import FontAwesome from 'react-fontawesome';
 
 const styles = {
@@ -24,14 +23,14 @@ const styles = {
   },
   socialIcon: {
     padding: '10px'
-  }  
+  }
 };
 
 const ProfileHeader = props => {
   const profileObj = props.profileData;
   return (
     <div style={styles.main}>
-      <Avatar src={profileObj.picture} size={250} />
+      <img src={profileObj.picture} />
       <h1>{profileObj.label}</h1>
       <ul style={styles.list}>
         <li style={styles.listItem}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import moment from 'moment';
-import Chip from 'material-ui/Chip';
+import Chip from '@material-ui/core/Chip';
 
 
 const styles = {
