@@ -15,7 +15,6 @@ import WorkSection from '../containers/WorkSection';
 injectTapEventPlugin();
 
 const muiTheme = createMuiTheme({
-  fontFamily: 'Roboto, sans-serif',
   palette: {
     primary1Color: grey[200],
     primary2Color: grey[50],
