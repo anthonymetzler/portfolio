@@ -21,14 +21,18 @@ const theme = createMuiTheme({
     contrastThreshold: 3,
     tonalOffset: 0.2,
   },
+  typography: {
+    useNextVariants: true,
+  },
 });
 
 const styles = {
   main: {
     // minWidth: '480px',
-    maxWidth: '1280px',
+    maxWidth: '960px',
     width: '90%',
     margin: '0 auto',
+    padding: '8px 24px',
     fontFamily: 'Roboto',
   },
 };
