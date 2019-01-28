@@ -1,98 +1,123 @@
 {
   "basics": {
     "name": "Anthony Metzler",
-    "label": "Product Development Leader",
+    "label": "Technology Development Leader",
     "picture": "./profilePhoto.jpg",
-    "logo": "./logo.png",
     "email": "anthony.metzler@gmail.com",
-    "phone": "+14155954395",
-    "website": "http://ametzler.com",
-    "summary": "Creating elegant solutions and designing forward-thinking products are some of my professional passions. In my personal life, I'm always tinkering and working on a variety of projects; I love exploring the interworkings of all things mechanical and technological. I have a strong sense of curiousity and an entrepreneurial drive. Professionally I’ve lead a variety of cross-functional teams in developing software and digital media.",
+    "phone": "4155954395",
+    "website": "https://ametzler.com",
+    "summary": "Designing forward-thinking products and leveraging technology to create elegant solutions are some of my professional passions. I love exploring the inner workings of technological systems and organizational processes. In my personal life, I'm always tinkering and working on a variety of hobby projects. The core motives of my drive are my strong sense of curiosity and commitment to continuous improvement practices.",
     "location": {
       "address": "",
-      "postalCode": "94131",
-      "city": "San Francisco",
-      "countryCode": "USA",
-      "region": "CA"
+      "postalCode": "93950",
+      "city": "Pacific Grove",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "GitHub",
         "username": "anthonymetzler",
         "url": "https://github.com/anthonymetzler"
       },
       {
         "network": "LinkedIn",
         "username": "anthonymetzler",
-        "url": "https://www.linkedin.com/in/anthonymetzler/"
+        "url": "https://www.linkedin.com/in/anthonymetzler"
       }
     ]
   },
   "work": [
     {
+      "company": "LifeAssist Technologies",
+      "position": "Lead Software Engineer",
+      "website": "https://lat.care",
+      "startDate": "2018-03-01",
+      "endDate": "2018-08-15",
+      "summary": "Transitioned from product operations to lead UI/UX design and development with a focus on core product redesigns and development of new product modules. Championed streamlining development processes and leveraging new Javascript technologies. Took ownership of creating specifications and developing data integrations.",
+      "highlights": [
+        "Headed the design and development of a GraphQL API service for integrating with partner APIs.",
+        "Completed an Android mobile app redesign with a focus accessibility and responsiveness - utilized React, Semantic UI, and Storybook."
+      ]
+    },
+    {
+      "company": "LifeAssist Technologies",
+      "position": "Director of Product - Customer Engagement",
+      "website": "https://lat.care",
+      "startDate": "2017-07-31",
+      "endDate": "2018-02-28",
+      "summary": "Consulted with health care organizations implementing a B2B SaaS care coordination platform with an patient-focused hardware component. Designed product enhancements and changes to facilitate customer requirements. Worked directly with the executive team facilitating business development discussions.",
+      "highlights": [
+        "Acted as program manager for a clinical study with the Canadian Ministry of Health - worked to ensure privacy and health-data compliancy.",
+        "Developed operational processes and systems ranging from inventory management to on-boarding.",
+        "Worked with the marketing department to perform a branding overhaul. Designed a range of digital and print materials utilizing Adobe Photoshop, Illustrator, and InDesign.",
+        "Oversaw QA processes to ensure software and hardware operability.",
+        "Managed a B2C product Beta test and facilitated periodic client discussions regarding product experience and usage."
+      ]
+    },
+    {
       "company": "ClearCare",
-      "position": "Product Engineering Manager",
-      "website": "http://clearcareonline.com",
+      "position": "Engineering Manager",
+      "website": "https://clearcareonline.com",
       "startDate": "2016-09-01",
       "endDate": "2017-02-24",
-      "summary": "Directly managed and lead a team of 6-10 Engineers, gathered product requirements, designed new products and enhancements, and managed the software development lifecycle. Served as the point of contact for customers and partners regarding multiple engineering projects running in parallel. Leader of cross-functional initiatives driving product launches and strategic partnerships.",
+      "summary": "Lead a team of 6-10 engineers, gathered product requirements, designed new products and enhancements, and managed the software development lifecycle of the engineering department. Served as the point of contact for customers and partners regarding numerous engineering projects running in parallel. Leader of cross-functional initiatives driving product launches and strategic partnerships.",
       "highlights": [
-        "Managed the development of a mobile app from design to completion; this supported the onboarding of key clients resulting in new MRR.",
-        "Lead customer engagement and product management, which laid the groundwork for vital sales strategies targeting new market MRR.",
-        "Oversaw the buildout of a new API that bolstered the platform’s service integrations and scalability.",
-        "Developed a Continuous Integration pipeline for creating release branches, deploying to staging environments, and running tests— this pipeline decreased pre-deployment time by 50%."
+        "Managed the development of mobile apps from design to completion, utilized the React, React Native, and Material Design frameworks - this supported the onboarding of key clients resulting in new MRR.",
+        "Oversaw the buildout of a new GraphQL API service bolstering the platform’s service integrations and scalability.",
+        "Worked in developing a continuous integration pipeline using Jenkins for creating release branches, deploying to staging environments, and running tests. Utilized the new pipeline to decrease pre-deployment time by 50%."
         ]
     },
     {
       "company": "ClearCare",
       "position": "QA Manager",
-      "website": "http://clearcareonline.com",
+      "website": "https://clearcareonline.com",
       "startDate": "2015-04-01",
       "endDate": "2016-08-31",
-      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA Engineers responsible for: writing automated tests, architecting frameworks, and documenting software quality standards. Acted as the Release Manager responsible for git flow, testing, authoring release notes, and near-daily production deployments. Collaborated upstream with Product Managers during sprint planning and story elaborations.",
+      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA engineers responsible for writing automated tests, architecting test frameworks, and documenting software quality standards. Acted as the release manager responsible for git flow, testing, authoring release notes, and near-daily production deployments. Collaborated upstream with product managers during sprint planning and story elaborations.",
       "highlights": [
-        "Awarded the ClearCare Hero Award, company wide recognition for excellence.",
-        "Directed the design and completion of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
-        "Oversaw the successful launch of partner integrations, including: Harvard Medical, Stanford, enterprise customers, payment processing vendors, and background check providers."
+        "Awarded the ClearCare Hero Award, a company wide recognition for excellence.",
+        "Directed the design and completion of a Python Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
+        "Oversaw the successful launch of partner integrations, including Harvard Medical, Stanford, enterprise customers, payment processing vendors, and background check providers."
         ]
     },
     {
       "company": "ClearCare",
       "position": "Senior QA Lead",
-      "website": "http://clearcareonline.com",
+      "website": "https://clearcareonline.com",
       "startDate": "2013-03-14",
       "endDate": "2015-03-31",
-      "summary": "Managed a team of QA Testers responsible for writing test cases, manually testing, and defining product requirements. Oversaw office IT infrastructure, such as: hardware, networking, and vendor services. Served as a  cross-functional technical resource and head Administrator.",
+      "summary": "Managed a team of onshore and offshore QA specialists responsible for writing test cases, manually testing, and defining product requirements for a health care B2B SaaS platform. Oversaw office IT infrastructure, such as hardware, networking, and vendor services. Served as a cross-functional technical resource and systems administrator.",
       "highlights": [
-        "Headed internal communications relating to product changes by writing documentation, producing walkthroughs & videos, providing feature demos, and leading trainings.",
+        "First QA specialist hired-on and championed all development related to testing and quality assurance of the platform.",
         "Managed the verification, triaging, and escalation of all reported product issues.",
-        "Researched, implemented, and administered numerous software solutions, including: Salesforce, Zuora, JIRA, Confluence, LucidChart, Influitive, Adobe Cloud, and more." 
+        "Headed internal communications relating to product changes by writing documentation, producing walkthroughs & videos, providing feature demos, and leading trainings.",
+        "Worked with and administered numerous software solutions, including Salesforce, Zuora, JIRA, Confluence, LucidChart, Influitive, Adobe Cloud, and more."
         ]
     },
     {
       "company": "Creative Solutions",
-      "position": "Senior Product Manager",
+      "position": "CEO",
       "website": "",
-      "startDate": "2009-04-01",
+      "startDate": "2009-07-15",
       "endDate": "2013-03-14",
-      "summary": "Lead a team of Business Development Managers, Designers, and Engineers in developing a B2B SaaS application. Acted as project manager from conception to product launch. Headed product positioning, user experience, quality assurance, and business operations. Created websites, designs, and marketing materials.",
+      "summary": "Lead a team of business development managers, designers, and engineers in developing a B2B2C SaaS application with a mobile component. Acted as project manager from conception to product launch. Headed product positioning, user experience, quality assurance, and business operations. Designed and developed websites, product UI/UX, and marketing materials.",
       "highlights": [
-        "Defined the product vision of new cloud POS platform with integrated mobile orders and payments.",
-        "Designed product features, wrote feature requirements, and oversaw the product roadmap.",
-        "Awarded the Entrepreneurial Award for a student affiliated startup by Stetson University.",
-        "Completed a round of seed funding for the start-up."
+        "Defined the vision and oversaw the launch of new cloud POS platform with integrated mobile orders and payments.",
+        "Designed product interfaces, wrote feature requirements, and managed the product roadmap.",
+        "Successfully completed a round of seed funding for the start-up."
         ]
     },
     {
-      "company": "Broken Box Interactive",
+      "company": "Broken Box",
       "position": "Producer",
       "website": "",
       "startDate": "2007-08-01",
       "endDate": "2011-10-31",
-      "summary": "Headed numerous media projects involving technology and video production. Directly managed a team of 3-6 Designers and Engineers, responsible for developing and implementing digital media. As development completed, the software and media were utilized in providing interactive experiences at live events. Lead business development, marketing, operations, and product vision.",
+      "summary": "Headed numerous media projects involving technology, music, and video production. Directly managed a team of 3-6 designers and engineers responsible for developing new media-technologies. As development completed, the technologies were used in providing interactive experiences at live events. Lead business development, marketing, operations, and product vision.",
       "highlights": [
-        "Fulfilled a variety of roles, including: product manager, camera & audio operator, designer, web developer, and video editor.",
-        "Acted as project lead and head coordinator for numerous events, concerts, and productions.",
+        "Fulfilled a variety of roles, including product manager, camera & audio operator, designer, web developer, and video editor.",
+        "Acted as project lead and head coordinator for numerous events, concerts, and video & music productions.",
         "Drove customer and partner relations, I was main point of contact for vendors, sponsors, and stakeholders."
         ]
     }
@@ -101,90 +126,110 @@
   "education": [
     {
       "institution": "Stetson University",
-      "area": "Business and Computer Information Systems",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
+      "area": "Family Business and Management",
+      "studyType": "Undergrad",
+      "startDate": "2004-08-01",
+      "endDate": "2008-12-31",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
     },
     {
-      "institution": "Codecademy",
-      "area": "Web Development",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
+      "institution": "Summit Technology",
+      "area": "IT and Network Administration",
+      "studyType": "Undergrad",
+      "startDate": "2002-08-01",
+      "endDate": "2003-05-31",
       "gpa": "",
-      "courses": [
-        "HTML & CSS",
-        "JavaScript",
-        "Python",
-        "SQL",
-        "React"        
-      ]
+      "courses": []
     }
   ],
   "awards": [],
   "publications": [],
   "skills": [
     {
-      "name": "Areas of Expertise",
-      "level": "",
+      "name": "Product Management",
+      "level": "Advanced",
       "keywords": [
-        "Project Management",
-        "Product Vision",
-        "UI/UX Design",
+        "Product Roadmapping",
+        "Defining Requirements",
+        "Data Analysis and Reporting",
+        "Agile and Scrum Methodologies",
+        "User Interviews",
+        "Program Management",
         "Business Development",
-        "Data Analytics",
-        "Agile Methodologies",
-        "Quality Assurance"
+        "MindMapping"
       ]
     },
     {
-      "name": "Technical Skills",
-      "level": "",
+      "name": "Design",
+      "level": "Beginner-Intermediate",
+      "keywords": [
+        "Photoshop",
+        "Illustrator",
+        "InDesign",
+        "Framer",
+        "Sketch",
+        "Balsamiq"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Beginner-Intermediate",
       "keywords": [
         "HTML",
+        "CSS",
         "Javascript",
         "Python",
         "SQL",
-        "React",
         "Git",
-        "Selenium",
-        "BDD",
-        "AWS",
-        "Google Cloud",
+        "GraphQL API",
+        "REST API",
         "Docker",
-        "Jira",
-        "SmartSheets",
-        "SalesForce",
-        "Google Analytics",
-        "Microsoft Office",
-        "Adobe Creative Suite",
-        "Sketch"
+        "LESS",
+        "Sass",
+        "Node",
+        "React",
+        "Storybook",
+        "Django",
+        "PostgreSQL",
+        "MongoDB",
+        "Selenium"
+      ]
+    },
+    {
+      "name": "IT and Software Administration",
+      "level": "Intermediate",
+      "keywords": [
+        "Maintain and Repair Equipment",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Unix",
+        "Networking",
+        "Android",
+        "iOS",
+        "Salesforce",
+        "Atlassian",
+        "Slack",
+        "ZenDesk",
+        "Freshworks",
+        "Zapier"
       ]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native"
+      "name": "English",
+      "level": "Native"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "name": "Spanish",
+      "level": "Basic"
     }
   ],
-  "interests": [
-    {
-      "name": "Hobbies",
-      "keywords": [
-        "Cooking",
-        "Carpentry",
-        "Drones"
-      ]
-    }
-  ],
-  "references": []
+  "interests": [],
+  "references": [{
+    "name": "",
+    "reference": ""
+  }]
 }
