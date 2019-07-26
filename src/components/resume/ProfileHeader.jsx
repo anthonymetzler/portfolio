@@ -37,27 +37,34 @@ const ProfileHeader = (props) => {
   const { content } = props;
 
   const {
-    picture, label, location, email, profiles,
+    name, picture, label, location, email, phone, profiles,
   } = content;
 
   return (
     <div style={styles.main}>
       <img src={picture} alt="selfie" style={styles.picture} />
+      <h1>{name}</h1>
       <h1>{label}</h1>
       <ul style={styles.list}>
-        <li style={styles.listItem}>
-          <FontAwesome
-            name="location-arrow"
-            size="lg"
-            style={styles.inlineIcon}
-          />
-          <span>{`${location.city}, ${location.region} ${location.countryCode}`}</span>
+        <li>
+          <FontAwesome name="phone" size="lg" style={styles.inlineIcon} />
+          <a style={styles.link} href={`tel:${phone}`}>
+            {phone}
+          </a>
         </li>
         <li>
           <FontAwesome name="envelope" size="lg" style={styles.inlineIcon} />
           <a style={styles.link} href={`mailto:${email}`}>
             {email}
           </a>
+        </li>
+        <li style={styles.listItem}>
+          <FontAwesome
+            name="location-arrow"
+            size="lg"
+            style={styles.inlineIcon}
+          />
+          <span>{`${location.city}, ${location.region}`}</span>
         </li>
         <li>
           <a style={styles.link} href={profiles[0].url}>

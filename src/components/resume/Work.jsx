@@ -54,8 +54,6 @@ const WorkItem = (props) => {
       <div>
         <h3 style={styles.h3}>
           <strong>{content.position}</strong>
-          `, `
-          {content.company}
         </h3>
       </div>
       <div>
