@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/roboto-latin-300italic.210a7c78.woff"
   },
   {
-    "revision": "7f5cd81a9c046d2a9977",
-    "url": "/portfolio/static/js/main.7f5cd81a.chunk.js"
+    "revision": "5befa1ed228f6c158ee9",
+    "url": "/portfolio/static/js/main.5befa1ed.chunk.js"
   },
   {
     "revision": "bc833e725c137257c2c42a789845d82f",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/roboto-latin-300.a1471d1d.woff"
   },
   {
-    "revision": "7b770d6c53423deb1a8e49d3c9175184",
-    "url": "/portfolio/static/media/roboto-latin-900italic.7b770d6c.woff2"
+    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
+    "url": "/portfolio/static/media/roboto-latin-900.8c2ade50.woff"
   },
   {
     "revision": "d69924b98acd849cdeba9fbff3f88ea6",
@@ -88,6 +88,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/roboto-latin-500italic.ffcc050b.woff"
   },
   {
+    "revision": "846d1890aee87fde5d8ced8eba360c3a",
+    "url": "/portfolio/static/media/roboto-latin-700italic.846d1890.woff"
+  },
+  {
     "revision": "cf6613d1adf490972c557a8e318e0868",
     "url": "/portfolio/static/media/roboto-latin-700.cf6613d1.woff"
   },
@@ -96,12 +100,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/roboto-latin-700italic.010c1aee.woff2"
   },
   {
-    "revision": "846d1890aee87fde5d8ced8eba360c3a",
-    "url": "/portfolio/static/media/roboto-latin-700italic.846d1890.woff"
-  },
-  {
-    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
-    "url": "/portfolio/static/media/roboto-latin-900.8c2ade50.woff"
+    "revision": "7b770d6c53423deb1a8e49d3c9175184",
+    "url": "/portfolio/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
     "revision": "f220a4b6c7541168326b",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/css/1.eefd09ce.chunk.css"
   },
   {
-    "revision": "26537711a73d288b2b5b9f09c7943dfd",
+    "revision": "f0403cfcf6d7b13a598db3cb2b4b3e2b",
     "url": "/portfolio/index.html"
   }
 ];
