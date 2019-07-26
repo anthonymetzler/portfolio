@@ -28,7 +28,7 @@ const About = (props) => {
     <div style={styles.main}>
       <h2 style={styles.h2}>
         <FontAwesome name="user" style={styles.inlineIcon} />
-        About
+        About Me
       </h2>
       <div>{content}</div>
     </div>

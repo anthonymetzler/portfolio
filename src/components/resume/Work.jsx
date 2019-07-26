@@ -21,9 +21,9 @@ const styles = {
     verticalAlign: 'center',
   },
   h3: {
-    fontSize: '16px',
+    fontSize: '20px',
     fontWeight: '700',
-    marginBottom: '0px',
+    marginBottom: '4px',
   },
 };
 
@@ -51,9 +51,15 @@ const WorkItem = (props) => {
 
   return (
     <div>
-      <h3 style={styles.h3}>{`${content.position}, ${content.company}`}</h3>
       <div>
-        <em>{getWorkDates()}</em>
+        <h3 style={styles.h3}>
+          <strong>{content.position}</strong>
+          `, `
+          {content.company}
+        </h3>
+      </div>
+      <div>
+        {getWorkDates()}
       </div>
       <p>{content.summary}</p>
       <ul>{getHighlights}</ul>
