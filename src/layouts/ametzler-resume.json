@@ -181,8 +181,7 @@
         "Story Writing",
         "User Interviews",
         "Data Analysis",
-        "Agile and Scrum Methodologies",
-        "Program Management"
+        "Agile and Scrum Methodologies"
       ]
     },
     {
@@ -195,15 +194,9 @@
         "Python",
         "C#",
         "SQL",
-        "React",
+        "Apex",
         "Git",
-        "API",
         "Docker",
-        "Serverless",
-        "ASP.NET",
-        "SQL Server",
-        "PostgreSQL",
-        "MongoDB",
         "Selenium"
       ]
     },
@@ -219,16 +212,15 @@
       ]
     },
     {
-      "name": "IT and Software Administration",
+      "name": "Software Administration",
       "level": "Intermediate",
       "keywords": [
-        "macOS",
-        "Windows",
-        "Networking",
-        "Android",
-        "iOS",
+        "Adobe",
         "Atlassian",
+        "Docusign",
         "Freshworks",
+        "Influitive",
+        "Office",
         "Quickbooks",
         "Salesforce",
         "Slack",
