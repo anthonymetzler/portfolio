@@ -6,7 +6,7 @@
     "email": "anthony.metzler@gmail.com",
     "phone": "415-595-4395",
     "website": "https://ametzler.com",
-    "summary": "Skilled technical manager with a knack for interpersonal communication. Dedicated to leveraging best practices and incremental improvement processes to create elegant, forward-thinking solutions. Professional with 10+ years of experience leading development teams designing, building, testing, and supporting scalable web platforms. Acquired work experience across a variety of industries fulfilling multiple roles and learning along the way. Tenacious contributor with a focus on leading cross-functional teams.",
+    "summary": "Skilled technical manager with a knack for interpersonal communication. Dedicated to leveraging best practices and incremental improvement processes to create elegant, forward-thinking solutions. Professional with 10+ years of experience leading development teams designing, building, testing, and supporting scalable web platforms. Tenacious contributor with a focus on leading cross-functional teams.",
     "location": {
       "address": "777 Corbett Ave., Apt. 4",
       "postalCode": "94131",
@@ -37,8 +37,8 @@
       "summary": "Designed and developed B2B/B2C eCommerce platforms for a wide variety of industries. Focused on designing responsive interfaces and cross-browser accessiblity. Configured, administered, and supported Salesforce sites.",
       "highlights": [
         "Developed original designs for new work and performed restyling on existing production sites.",
-        "Worked with Microsoft ASP.NET and Dynamics SL - updated stored procedures and utilized SQL Server for data analysis.",
-        "Within Salesforce, implemented territory management as well as designed workflows, reports, and analytics."
+        "Worked with Microsoft ASP.NET and Dynamics SL, also utilized SQL Server for data analysis.",
+        "Within Salesforce, implemented new features as well as designed workflows, reports, and analytics."
       ]
     },
     {
@@ -47,12 +47,12 @@
       "website": "https://metz.tech",
       "startDate": "2017-02-17",
       "endDate": "",
-      "summary": "Developed an inventory management platform optimized for consumer users from the ground up. Designed a dynamic learning program to optimize order fulfillment through predictive analysis.",
+      "summary": "Developed an inventory management platform optimized for consumer users. Designed a dynamic learning program to optimize order fulfillment through predictive analysis.",
       "highlights": [
         "Utilized Photoshop, Illustrator, and StorybookJS to mock interfaces and developing brand designs.",
         "Created a serverless GraphQL API to support the web and native applications.",
         "Leveraged React and React Native to develop the application interfaces for the platform.",
-        "Spearheaded the product roadmap to outline future funtionality and corporate strategy."
+        "Spearheaded the product roadmap to outline future funtionality and product strategy."
       ]
     },
     {
@@ -75,10 +75,10 @@
       "website": "https://lat.care",
       "startDate": "2017-07-31",
       "endDate": "2018-02-28",
-      "summary": "Consulted with health care organizations to implement a B2B SaaS care coordination platform with a patient-focused hardware component. Designed product enhancements and changes to facilitate customer requirements. Worked directly with the executive team leading product roadmapping discussions.",
+      "summary": "Consulted with health care organizations to implement a B2B SaaS platform with a patient-focused hardware component. Designed product enhancements and changes to facilitate customer requirements. Worked directly with the executive team leading product roadmapping discussions.",
       "highlights": [
         "Acted as program manager for a clinical study with the Canadian Ministry of Health - worked to ensure privacy and health-data compliancy.",
-        "Developed internal operational processes and systems supporting company functions ranging from inventory management to client on-boarding.",
+        "Developed internal operational processes supporting company functions ranging from inventory management to client on-boarding.",
         "Managed a B2C product Beta test and facilitated periodic client discussions regarding product experience and usage."
       ]
     },
@@ -91,7 +91,7 @@
       "summary": "Lead a team of 6-10 engineers, gathered product requirements, designed new features, and managed the software development lifecycle. Served as the point of contact for customers and partners regarding numerous engineering projects running in parallel. Leader of cross-functional initiatives driving product launches and strategic partnerships.",
       "highlights": [
         "Managed the development of mobile apps utilizing React and React Native - this supported the onboarding of key clients resulting in new MRR.",
-        "Oversaw the buildout of a new GraphQL API service integrated with the primary monlothic Django application.",
+        "Oversaw the buildout of a new GraphQL API service integrated with the primary, monlothic Django application.",
         "Worked in developing a continuous integration pipeline using Jenkins for creating release branches, deploying to staging environments, and running tests. Utilized the new pipeline to decrease pre-deployment time by 50%."
       ]
     },
@@ -104,7 +104,7 @@
       "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA engineers responsible for writing automated tests, architecting test frameworks, and documenting software quality standards. Acted as the release manager responsible for near-daily production deployments. Continuously collaborated upstream with product managers for sprint planning and story writing.",
       "highlights": [
         "Awarded the ClearCare Hero Award a company wide recognition for excellence.",
-        "Directed the design and completion of a Python Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
+        "Directed the design and completion of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
         "Oversaw the successful launch of partner integrations, including Harvard Medical, Stanford, enterprise customers, payment processing vendors, and background check providers."
       ]
     },
@@ -132,19 +132,6 @@
         "Headed product development from conception to launch on a PHP web platform.",
         "Acted as project manager overseeing the integration of partner APIs providing payment and SMS functionality.",
         "Lead and successfully completed fundraising for start-up seed capital."
-      ]
-    },
-    {
-      "company": "Broken Box Interactive",
-      "position": "Producer",
-      "website": "",
-      "startDate": "2007-08-01",
-      "endDate": "2011-10-31",
-      "summary": "Lead numerous interactive media projects involving technology, music, and video production. Directly managed a team of 3-6 designers and engineers responsible for developing new media-technologies. Spearheaded business development, marketing, operations, and product management.",
-      "highlights": [
-        "Fulfilled a variety of roles, including product manager, line director, camera & audio operator, designer, web developer, and video editor.",
-        "Acted as project manager and event coordinator for numerous private events, concerts, and video & music productions.",
-        "Drove customer and partner relations as main point of contact for vendors, sponsors, and stakeholders."
       ]
     }
   ],
@@ -212,12 +199,11 @@
       ]
     },
     {
-      "name": "Software Administration",
+      "name": "Software Administraion",
       "level": "Intermediate",
       "keywords": [
         "Adobe",
         "Atlassian",
-        "Docusign",
         "Freshworks",
         "Influitive",
         "Office",
