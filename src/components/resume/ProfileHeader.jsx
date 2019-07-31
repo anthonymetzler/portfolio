@@ -9,9 +9,20 @@ const styles = {
     textAlign: 'center',
   },
   picture: {
-    height: '255px',
+    height: '256px',
     width: 'auto',
     borderRadius: '50%',
+  },
+  name: {
+    fontSize: '2rem',
+    fontWeight: 700,
+    marginTop: '.5rem',
+    marginBottom: '.5rem',
+  },
+  label: {
+    fontSize: '1.5rem',
+    fontWeight: 500,
+    marginBottom: '.5rem',
   },
   link: {
     color: '#0097A7',
@@ -21,15 +32,19 @@ const styles = {
     margin: '0px',
     padding: '0px',
   },
-  listItem: {
-    paddingBottom: '10px',
+  contactListItem: {
+    paddingBottom: '4px',
+  },
+  socialListItem: {
+    paddingTop: '8px',
+    paddingBottom: '8px',
   },
   inlineIcon: {
     color: '#C50E29',
-    paddingRight: '5px',
+    paddingRight: '6px',
   },
   socialIcon: {
-    padding: '10px',
+    padding: '12px',
   },
 };
 
@@ -46,19 +61,19 @@ const ProfileHeader = (props) => {
       <h1>{name}</h1>
       <h1>{label}</h1>
       <ul style={styles.list}>
-        <li>
-          <FontAwesome name="phone" size="lg" style={styles.inlineIcon} />
-          <a style={styles.link} href={`tel:${phone}`}>
-            {phone}
-          </a>
-        </li>
-        <li>
+        <li style={styles.contactListItem}>
           <FontAwesome name="envelope" size="lg" style={styles.inlineIcon} />
           <a style={styles.link} href={`mailto:${email}`}>
             {email}
           </a>
         </li>
-        <li style={styles.listItem}>
+        <li style={styles.contactListItem}>
+          <FontAwesome name="phone" size="lg" style={styles.inlineIcon} />
+          <a style={styles.link} href={`tel:${phone}`}>
+            {phone}
+          </a>
+        </li>
+        <li style={styles.contactListItem}>
           <FontAwesome
             name="location-arrow"
             size="lg"
