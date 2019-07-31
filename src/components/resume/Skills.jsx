@@ -31,8 +31,8 @@ const styles = {
     verticalAlign: 'center',
   },
   h3: {
-    fontSize: '16px',
-    fontWeight: '700',
+    fontSize: '1.25rem',
+    fontWeight: 'bold',
     marginBottom: '0px',
   },
 };

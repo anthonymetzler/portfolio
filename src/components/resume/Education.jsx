@@ -33,11 +33,11 @@ const styles = {
   },
   h3: {
     display: 'inline-block',
-    fontSize: '16px',
-    fontWeight: '700',
+    fontSize: '1.25rem',
+    fontWeight: 'bold',
     marginBottom: '0px',
   },
-}
+};
 
 const Education = (props) => {
   const { content } = props;
@@ -63,13 +63,13 @@ const Education = (props) => {
           <div>
             <span>
               <h3 style={styles.h3}>{`${item.institution}:`}</h3>
-              <em>{` ${startdate} - ${enddate}`}</em>
+              {` ${startdate} - ${enddate}`}
             </span>
           </div>
           <div>{`${item.area}`}</div>
         </div>
       );
-    })
+    });
     return educationSections;
   };
 

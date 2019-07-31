@@ -21,9 +21,13 @@ const styles = {
     verticalAlign: 'center',
   },
   h3: {
-    fontSize: '20px',
-    fontWeight: '700',
+    fontSize: '1.25rem',
+    fontWeight: 'bold',
     marginBottom: '4px',
+  },
+  workDates: {
+    fontStyle: 'italic',
+    fontWeight: 'bold',
   },
 };
 
@@ -41,7 +45,7 @@ const WorkItem = (props) => {
     }
 
     return (
-      <span>{`${startdate} - ${enddate}`}</span>
+      <span style={styles.workDates}>{`${startdate} - ${enddate}`}</span>
     );
   };
 
@@ -53,7 +57,10 @@ const WorkItem = (props) => {
     <div>
       <div>
         <h3 style={styles.h3}>
-          <strong>{content.position}</strong>
+          {content.position}
+          ,
+          {' '}
+          {content.company}
         </h3>
       </div>
       <div>
