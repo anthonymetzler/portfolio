@@ -59,7 +59,7 @@ const ProfileHeader = (props) => {
     <div style={styles.main}>
       <img src={picture} alt="selfie" style={styles.picture} />
       <h1>{name}</h1>
-      <h1>{label}</h1>
+      <h2>{label}</h2>
       <ul style={styles.list}>
         <li style={styles.contactListItem}>
           <FontAwesome name="envelope" size="lg" style={styles.inlineIcon} />
