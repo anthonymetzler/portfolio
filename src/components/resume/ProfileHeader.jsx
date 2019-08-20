@@ -33,10 +33,10 @@ const styles = {
     padding: '0px',
   },
   contactListItem: {
-    paddingBottom: '4px',
+    paddingBottom: '8px',
   },
   socialListItem: {
-    paddingTop: '8px',
+    paddingTop: '4px',
     paddingBottom: '8px',
   },
   inlineIcon: {
@@ -67,12 +67,12 @@ const ProfileHeader = (props) => {
             {email}
           </a>
         </li>
-        <li style={styles.contactListItem}>
+        {/* <li style={styles.contactListItem}>
           <FontAwesome name="phone" size="lg" style={styles.inlineIcon} />
           <a style={styles.link} href={`tel:${phone}`}>
             {phone}
           </a>
-        </li>
+        </li> */}
         <li style={styles.contactListItem}>
           <FontAwesome
             name="location-arrow"
