@@ -61,7 +61,11 @@ const Education = (props) => {
       return (
         <div key={index}>
           <div>
-            <span><h3 style={styles.h3}>{`${item.institution}&nbsp;${item.area}`}</h3></span>
+            <span>
+              <h3 style={styles.h3}>{item.institution}</h3>
+              &nbsp;
+              {item.area}
+            </span>
           </div>
         </div>
       );
