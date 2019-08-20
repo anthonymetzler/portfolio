@@ -6,7 +6,7 @@
     "email": "anthony.metzler@gmail.com",
     "phone": "415-595-4395",
     "website": "https://ametzler.com",
-    "summary": "Skilled technical manager with a knack for interpersonal communication. Dedicated to leveraging best practices and incremental improvement processes to create elegant, forward-thinking solutions. Professional with 10+ years of experience leading development teams designing, building, testing, and supporting scalable web platforms. Tenacious contributor with a focus on leading cross-functional teams.",
+    "summary": "Skilled technical manager with a knack for interpersonal communication and leading a team. Dedicated to leveraging best practices and incremental improvement processes to create elegant, forward-thinking solutions. Professional with 10+ years of experience leading development teams designing, building, testing, and supporting scalable web platforms. Tenacious contributor with a focus on leading cross-functional teams.",
     "location": {
       "address": "777 Corbett Ave., Apt. 4",
       "postalCode": "94131",
@@ -30,21 +30,21 @@
   "work": [
     {
       "company": "Self-Employed",
-      "position": "Software Engineer and Product Designer",
+      "position": "Software Engineer and Designer",
       "website": "https://ametzler.com",
       "startDate": "2018-08-16",
       "endDate": "",
-      "summary": "Designed and developed B2B/B2C eCommerce platforms for a wide variety of industries. Focused on designing responsive interfaces and cross-browser accessiblity. Configured, administered, and supported Salesforce sites.",
+      "summary": "Designed and developed B2B/B2C eCommerce platforms for a wide variety of industries. Focused on designing responsive interfaces and cross-browser accessiblity.",
       "highlights": [
-        "Developed original designs for new work and performed restyling on existing production sites.",
-        "Worked with Microsoft ASP.NET and Dynamics SL, also utilized SQL Server for data analysis.",
-        "Within Salesforce, implemented new features as well as designed workflows, reports, and analytics."
+        "Created original designs for new work and performed restyling on existing production sites.",
+        "Primarily worked with Microsoft ASP.NET and Dynamics SL, but also completed projects utilizing WordPress and Shopify.",
+        "Configured, administered, and supported Salesforce sites including designing workflows, reports, and analytics."
       ]
     },
     {
       "company": "Metz Tech",
       "position": "Founder",
-      "website": "https://metz.tech",
+      "website": "",
       "startDate": "2017-02-17",
       "endDate": "",
       "summary": "Developed an inventory management platform optimized for consumer users. Designed a dynamic learning program to optimize order fulfillment through predictive analysis.",
@@ -79,7 +79,7 @@
       "highlights": [
         "Acted as program manager for a clinical study with the Canadian Ministry of Health - worked to ensure privacy and health-data compliancy.",
         "Developed internal operational processes supporting company functions ranging from inventory management to client on-boarding.",
-        "Managed a B2C product Beta test and facilitated periodic client discussions regarding product experience and usage."
+        "Managed a B2C product beta test and facilitated periodic client discussions regarding product experience and usage."
       ]
     },
     {
@@ -92,7 +92,7 @@
       "highlights": [
         "Managed the development of mobile apps utilizing React and React Native - this supported the onboarding of key clients resulting in new MRR.",
         "Oversaw the buildout of a new GraphQL API service integrated with the primary, monlothic Django application.",
-        "Worked in developing a continuous integration pipeline using Jenkins for creating release branches, deploying to staging environments, and running tests. Utilized the new pipeline to decrease pre-deployment time by 50%."
+        "Worked in developing a continuous integration pipeline using Jenkins, which decreased pre-deployment time by 50%."
       ]
     },
     {
@@ -101,7 +101,7 @@
       "website": "https://clearcareonline.com",
       "startDate": "2015-04-01",
       "endDate": "2016-08-31",
-      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA engineers responsible for writing automated tests, architecting test frameworks, and documenting software quality standards. Acted as the release manager responsible for near-daily production deployments. Continuously collaborated upstream with product managers for sprint planning and story writing.",
+      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA engineers responsible for writing automated tests, architecting test frameworks, and documenting software quality standards. Acted as the release manager responsible for near-daily production deployments.",
       "highlights": [
         "Awarded the ClearCare Hero Award a company wide recognition for excellence.",
         "Directed the design and completion of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
@@ -127,9 +127,9 @@
       "website": "",
       "startDate": "2009-07-15",
       "endDate": "2013-03-14",
-      "summary": "Lead a team of business development managers, designers, and engineers in developing a B2B SaaS mobile ordering and POS platform. Produced websites, feature requirements, product interfaces, and print/digital media.",
+      "summary": "Lead a team of business development managers, designers, and engineers in developing a B2B SaaS mobile ordering and POS platform. Created websites, feature requirements, product interfaces, and print/digital media.",
       "highlights": [
-        "Headed product development from conception to launch on a PHP web platform.",
+        "Headed product development of a PHP web platform from conception to launch.",
         "Acted as project manager overseeing the integration of partner APIs providing payment and SMS functionality.",
         "Lead and successfully completed fundraising for start-up seed capital."
       ]
@@ -163,12 +163,27 @@
       "name": "Product Management",
       "level": "Advanced",
       "keywords": [
+        "Project Management",
         "Product Roadmapping",
-        "Defining Requirements",
-        "Story Writing",
-        "User Interviews",
+        "Cross-Functional Team Leadership",
+        "Strategy",
         "Data Analysis",
-        "Agile and Scrum Methodologies"
+        "Agile Methodologies"
+      ]
+    },
+    {
+      "name": "Engineering Management",
+      "level": "Intermediate",
+      "keywords": [
+        "Product Development",
+        "Web Services",
+        "Web Applications",
+        "Full-Stack Development",
+        "Software Development Life Cycle",
+        "Release Management",
+        "Quality Assurance",
+        "Testing",
+        "Site Reliablity"
       ]
     },
     {
@@ -184,7 +199,10 @@
         "Apex",
         "Git",
         "Docker",
-        "Selenium"
+        "Serverless",
+        "Selenium",
+        "BDD",
+        "TDD"
       ]
     },
     {

@@ -63,7 +63,6 @@ const Education = (props) => {
           <div>
             <span>
               <h3 style={styles.h3}>{`${item.institution}:`}</h3>
-              {` ${startdate} - ${enddate}`}
             </span>
           </div>
           <div>{`${item.area}`}</div>
