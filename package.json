@@ -2,6 +2,7 @@
   "name": "resume-website",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://anthonymetzler.github.io/portfolio/",
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "@material-ui/core": "^3.2.2",
