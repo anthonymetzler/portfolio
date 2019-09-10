@@ -6,27 +6,32 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   main: {
-    padding: '20px',
+    padding: '12px 24px',
     textAlign: 'justify',
   },
   inlineIcon: {
-    paddingRight: '10px',
-    color: '#c50e29',
+    paddingRight: '8px',
+    color: '#616161',
   },
-  h2: {
+  header: {
     marginBottom: '8px',
     fontSize: '2rem',
     marginTop: '8px',
     color: '#212121',
+    fontWeight: 700,
     verticalAlign: 'center',
+    display: 'flex',
+    alignItems: 'center',
   },
-  h3: {
+  workItemHeader: {
+    color: '#212121',
     fontSize: '1.25rem',
-    fontWeight: 'bold',
+    fontWeight: 700,
     marginBottom: '4px',
   },
   workDates: {
-    fontStyle: 'italic',
+    // fontStyle: 'italic',
+    color: '#616161',
     fontWeight: 'bold',
   },
 };
@@ -35,17 +40,17 @@ const WorkItem = (props) => {
   const { content } = props;
 
   const getWorkDates = () => {
-    const startdate = moment(content.startDate).format('MMM, YYYY');
-    let enddate = null;
+    const startDate = moment(content.startDate).format('MMMM, YYYY');
+    let endDate = null;
 
     if (content.endDate !== '') {
-      enddate = moment(content.endDate).format('MMM, YYYY');
+      endDate = moment(content.endDate).format('MMMM, YYYY');
     } else {
-      enddate = 'Present';
+      endDate = 'Present';
     }
 
     return (
-      <span style={styles.workDates}>{`${startdate} - ${enddate}`}</span>
+      <span style={styles.workDates}>{`${startDate} - ${endDate}`}</span>
     );
   };
 
@@ -56,12 +61,10 @@ const WorkItem = (props) => {
   return (
     <div>
       <div>
-        <h3 style={styles.h3}>
+        <div style={styles.workItemHeader}>
           {content.position}
-          ,
-          {' '}
-          {content.company}
-        </h3>
+          <span style={{ fontWeight: 'normal' }}>{` @ ${content.company}`}</span>
+        </div>
       </div>
       <div>
         {getWorkDates()}
@@ -85,21 +88,28 @@ const Work = (props) => {
 
   return (
     <div style={styles.main}>
-      <h2 style={styles.h2}>
+      <div style={styles.header}>
         <FontAwesome name="building" style={styles.inlineIcon} />
         Work Experience
-      </h2>
+      </div>
       {getWorkExperience()}
     </div>
   );
 };
 
 WorkItem.propTypes = {
-  content: PropTypes.object.isRequired,
+  content: PropTypes.shape({
+    startDate: PropTypes.string,
+    endDate: PropTypes.string,
+    highlights: PropTypes.array,
+    position: PropTypes.string,
+    company: PropTypes.string,
+    summary: PropTypes.array,
+  }).isRequired,
 };
 
 Work.propTypes = {
-  content: PropTypes.array.isRequired,
+  content: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default withStyles(styles)(Work);

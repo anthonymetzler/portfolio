@@ -6,14 +6,14 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   main: {
-    padding: '20px',
+    padding: '12px 24px',
   },
   inlineIcon: {
-    paddingRight: '10px',
-    color: '#c50e29',
+    paddingRight: '8px',
+    color: '#616161',
   },
   chip: {
-    margin: '3px',
+    margin: '2px',
   },
   list: {
     listStyleType: 'none',
@@ -23,16 +23,20 @@ const styles = {
     flexDirection: 'row',
     flexWrap: 'wrap',
   },
-  h2: {
+  header: {
     marginBottom: '8px',
     fontSize: '2rem',
     marginTop: '8px',
     color: '#212121',
+    fontWeight: 700,
     verticalAlign: 'center',
+    display: 'flex',
+    alignItems: 'center',
   },
-  h3: {
+  skillHeader: {
+    color: '#212121',
     fontSize: '1.25rem',
-    fontWeight: 'bold',
+    fontWeight: 700,
     marginBottom: '0px',
   },
 };
@@ -52,9 +56,9 @@ const Skills = (props) => {
   const getSkillsSections = (list) => {
     const skillsSections = list.map((skill, index) => (
       <div key={index}>
-        <div style={{ padding: '8px 0' }}>
-          <span style={styles.h3}>{`${skill.name} | `}</span>
-          <span style={{ fontStyle: 'italic' }}>{skill.level}</span>
+        <div style={{ padding: '12px 0' }}>
+          <span style={styles.skillHeader}>{`${skill.name} | `}</span>
+          <span style={{ color: '#616161', fontSize: '1.25rem' }}>{skill.level}</span>
         </div>
         <ul style={styles.list}>{getSkillsList(skill.keywords)}</ul>
       </div>
@@ -64,17 +68,17 @@ const Skills = (props) => {
 
   return (
     <div style={styles.main}>
-      <h2 style={styles.h2}>
+      <div style={styles.header}>
         <FontAwesome name="code" style={styles.inlineIcon} />
         Skills
-      </h2>
+      </div>
       <div>{getSkillsSections(content)}</div>
     </div>
   );
 };
 
 Skills.propTypes = {
-  content: PropTypes.array.isRequired,
+  content: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default withStyles(styles)(Skills);

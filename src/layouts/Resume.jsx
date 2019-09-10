@@ -9,8 +9,6 @@ import Skills from '../components/resume/Skills';
 import Work from '../components/resume/Work';
 import ProfileHeader from '../components/resume/ProfileHeader';
 
-import 'typeface-roboto';
-
 const resume = require('./ametzler-resume.json');
 
 const theme = createMuiTheme({
@@ -28,12 +26,9 @@ const theme = createMuiTheme({
 
 const styles = {
   main: {
-    // minWidth: '480px',
     maxWidth: '960px',
-    width: '90%',
-    margin: '0 auto',
+    margin: '0px auto 0px auto',
     padding: '8px 24px',
-    fontFamily: 'Roboto',
   },
 };
 

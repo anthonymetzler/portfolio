@@ -4,17 +4,16 @@ import FontAwesome from 'react-fontawesome';
 import { withStyles } from '@material-ui/core/styles';
 import moment from 'moment';
 
-
 const styles = {
   main: {
-    padding: '20px',
+    padding: '12px 24px',
   },
   inlineIcon: {
-    paddingRight: '10px',
-    color: '#c50e29',
+    paddingRight: '8px',
+    color: '#616161',
   },
   chip: {
-    margin: '3px',
+    margin: '2px',
   },
   list: {
     listStyleType: 'none',
@@ -24,18 +23,25 @@ const styles = {
     flexDirection: 'row',
     flexWrap: 'wrap',
   },
-  h2: {
+  header: {
     marginBottom: '8px',
     fontSize: '2rem',
     marginTop: '8px',
     color: '#212121',
+    fontWeight: 700,
     verticalAlign: 'center',
+    display: 'flex',
+    alignItems: 'center',
   },
-  h3: {
+  sectionHeader: {
     display: 'inline-block',
+    color: '#212121',
     fontSize: '1.25rem',
-    fontWeight: 'bold',
-    marginBottom: '0px',
+    fontWeight: 700,
+    marginBottom: '4px',
+  },
+  section: {
+    marginBottom: '8px',
   },
 };
 
@@ -44,28 +50,28 @@ const Education = (props) => {
 
   const getEducationSections = (list) => {
     const educationSections = list.map((item, index) => {
-      let startdate = null;
-      let enddate = null;
+      let { startDate, endDate } = item;
 
-      if (item.startDate === '') {
-        startdate = '';
-        enddate = '';
-      } else if (item.endDate !== '' && item.startDate !== '') {
-        startdate = moment(item.startDate).format('YYYY');
-        enddate = moment(item.endDate).format('YYYY');
+      if (startDate === '') {
+        startDate = '';
+        endDate = '';
+      } else if (endDate !== '' && startDate !== '') {
+        startDate = moment(startDate).format('YYYY');
+        endDate = moment(endDate).format('YYYY');
       } else {
-        startdate = moment(item.startDate).format('YYYY');
-        enddate = 'Present';
+        startDate = moment(startDate).format('YYYY');
+        endDate = 'Present';
       }
 
       return (
         <div key={index}>
-          <div>
-            <h3 style={styles.h3}>{item.institution}</h3>
+          <div style={styles.section}>
+            <div style={styles.sectionHeader}>{item.institution}</div>
+            <div>
+              {item.area}
+            </div>
           </div>
-          <div>
-            {item.area}
-          </div>
+
         </div>
       );
     });
@@ -74,17 +80,17 @@ const Education = (props) => {
 
   return (
     <div style={styles.main}>
-      <h2 style={styles.h2}>
+      <div style={styles.header}>
         <FontAwesome name="mortar-board" style={styles.inlineIcon} />
         Education
-      </h2>
+      </div>
       <div>{getEducationSections(content)}</div>
     </div>
   );
 };
 
 Education.propTypes = {
-  content: PropTypes.array.isRequired,
+  content: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default withStyles(styles)(Education);

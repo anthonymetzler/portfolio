@@ -5,19 +5,25 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   main: {
-    padding: '20px',
+    padding: '12px 24px',
     textAlign: 'justify',
   },
   inlineIcon: {
-    paddingRight: '10px',
-    color: '#c50e29',
+    paddingRight: '8px',
+    color: '#616161',
   },
-  h2: {
+  header: {
     marginBottom: '8px',
     fontSize: '2rem',
     marginTop: '8px',
     color: '#212121',
+    fontWeight: 700,
     verticalAlign: 'center',
+    display: 'flex',
+    alignItems: 'center',
+  },
+  content: {
+    color: '#212121',
   },
 };
 
@@ -26,11 +32,11 @@ const About = (props) => {
 
   return (
     <div style={styles.main}>
-      <h2 style={styles.h2}>
+      <div style={styles.header}>
         <FontAwesome name="user" style={styles.inlineIcon} />
         About Me
-      </h2>
-      <div>{content}</div>
+      </div>
+      <div style={styles.content}>{content}</div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   main: {
-    padding: '20px',
+    padding: '12px 24px',
     textAlign: 'center',
   },
   picture: {
@@ -14,20 +14,24 @@ const styles = {
     borderRadius: '50%',
   },
   name: {
+    color: '#212121',
     fontSize: '2rem',
     fontWeight: 700,
     marginTop: '.5rem',
-    marginBottom: '.5rem',
+    marginBottom: '0rem',
   },
   label: {
+    color: '#616161',
     fontSize: '1.5rem',
-    fontWeight: 500,
-    marginBottom: '.5rem',
+    fontWeight: 400,
+    marginBottom: '1rem',
   },
   link: {
-    color: '#0097A7',
+    color: '#9E9E9E',
+    textDecoration: 'none',
   },
   list: {
+    color: '#616161',
     listStyleType: 'none',
     margin: '0px',
     padding: '0px',
@@ -40,7 +44,7 @@ const styles = {
     paddingBottom: '8px',
   },
   inlineIcon: {
-    color: '#C50E29',
+    color: '#616161',
     paddingRight: '6px',
   },
   socialIcon: {
@@ -52,14 +56,14 @@ const ProfileHeader = (props) => {
   const { content } = props;
 
   const {
-    name, picture, label, location, email, phone, profiles,
+    name, picture, label, location, email, profiles,
   } = content;
 
   return (
     <div style={styles.main}>
       <img src={picture} alt="selfie" style={styles.picture} />
-      <h1>{name}</h1>
-      <h2>{label}</h2>
+      <div style={styles.name}>{name}</div>
+      <div style={styles.label}>{label}</div>
       <ul style={styles.list}>
         <li style={styles.contactListItem}>
           <FontAwesome name="envelope" size="lg" style={styles.inlineIcon} />
@@ -67,12 +71,6 @@ const ProfileHeader = (props) => {
             {email}
           </a>
         </li>
-        {/* <li style={styles.contactListItem}>
-          <FontAwesome name="phone" size="lg" style={styles.inlineIcon} />
-          <a style={styles.link} href={`tel:${phone}`}>
-            {phone}
-          </a>
-        </li> */}
         <li style={styles.contactListItem}>
           <FontAwesome
             name="location-arrow"
@@ -95,7 +93,14 @@ const ProfileHeader = (props) => {
 };
 
 ProfileHeader.propTypes = {
-  content: PropTypes.object.isRequired,
+  content: PropTypes.shape({
+    name: PropTypes.string,
+    picture: PropTypes.string,
+    label: PropTypes.string,
+    location: PropTypes.string,
+    email: PropTypes.string,
+    profiles: PropTypes.array,
+  }).isRequired,
 };
 
 export default withStyles(styles)(ProfileHeader);

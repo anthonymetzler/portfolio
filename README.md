@@ -1,1 +1,1 @@
-This is personal resume website ([ametzler.com](http://ametzler.com)). The application is written in React, which utilizes a JSON resume and Material-UI components. When deployed the site is hosted on GitHub pages.
+This is a personal resume website ([ametzler.com](http://ametzler.com)). The application is written in ReactJS utilizing Material-UI components, which renders a JSON formatted resume. The site build is hosted on GitHub Pages within the docs directory.

@@ -1,9 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Logo = props => {
+const Logo = (props) => {
+  const { logo } = props;
   return (
-    <img src={props.logo} />
-  )
-}
+    <img alt="logo" src={logo} />
+  );
+};
+
+Logo.propTypes = {
+  logo: PropTypes.string.isRequired,
+};
 
 export default Logo;

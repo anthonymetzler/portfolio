@@ -6,7 +6,7 @@
     "email": "anthony.metzler@gmail.com",
     "phone": "4155954395",
     "website": "https://ametzler.com",
-    "summary": "Professional with 10+ years of experience leading the development, design, testing, and support of scalable web platforms. Skilled technical manager with a knack for interpersonal communication and leading teams. Committed to leveraging best practices and incremental improvement processes for creating elegant, forward-thinking solutions. Tenacious contributor with a focus on leading cross-functional teams.",
+    "summary": "Skilled technical manager with a knack for interpersonal communication and leading teams. Dedicated to leveraging best practices and incremental improvement processes to create elegant, forward-thinking solutions. Professional with 10+ years of experience leading the development, design, testing, and supporting scalable web platforms. Tenacious contributor with a focus on leading cross-functional teams.",
     "location": {
       "address": "777 Corbett Ave., Apt. 4",
       "postalCode": "94131",
@@ -71,7 +71,7 @@
     },
     {
       "company": "LifeAssist Technologies",
-      "position": "Senior Program Manager",
+      "position": "Director of Product",
       "website": "https://lat.care",
       "startDate": "2017-07-31",
       "endDate": "2018-02-28",
@@ -99,15 +99,26 @@
       "company": "ClearCare",
       "position": "QA Manager",
       "website": "https://clearcareonline.com",
-      "startDate": "2013-03-15",
+      "startDate": "2015-04-01",
       "endDate": "2016-08-31",
-      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA engineers responsible for writing automated tests, architecting test frameworks, and documenting software quality standards. Oversaw the verification, triaging, and escalation of all reported product issues. Headed internal communications relating to product changes by writing documentation, producing walkthroughs & videos, providing feature demos, and leading trainings.",
+      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA engineers responsible for writing automated tests, architecting test frameworks, and documenting software quality standards. Acted as the release manager responsible for near-daily production deployments.",
       "highlights": [
         "Awarded the ClearCare Hero Award a company wide recognition for excellence.",
-        "Served as a cross-functional technical resource and systems administrator.",
-        "Acted as the release manager responsible for near-daily production deployments.",
         "Directed the design and completion of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
         "Oversaw the successful launch of partner integrations, including Harvard Medical, Stanford, enterprise customers, payment processing vendors, and background check providers."
+      ]
+    },
+    {
+      "company": "ClearCare",
+      "position": "Senior QA Lead",
+      "website": "https://clearcareonline.com",
+      "startDate": "2013-03-15",
+      "endDate": "2015-03-31",
+      "summary": "Managed a team of onshore and offshore QA specialists responsible for writing test cases, manually testing, and defining product requirements for a healthcare B2B SaaS platform. Managed the verification, triaging, and escalation of all reported product issues.",
+      "highlights": [
+        "Headed internal communications relating to product changes by writing documentation, producing walkthroughs & videos, providing feature demos, and leading trainings.",
+        "Worked with and administered numerous software solutions, including Salesforce, Zuora, JIRA, Confluence, LucidChart, Influitive, Adobe Cloud, and more.",
+        "Served as a cross-functional technical resource and systems administrator."
       ]
     },
     {
@@ -128,7 +139,7 @@
   "education": [
     {
       "institution": "Stetson University",
-      "area": "Business Administration",
+      "area": "Family Business and Management",
       "studyType": "Undergrad",
       "startDate": "2004-08-01",
       "endDate": "2008-12-31",

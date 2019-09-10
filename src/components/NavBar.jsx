@@ -45,10 +45,6 @@ function NavBar(props) {
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit" className={classes.grow}>
-            News
-          </Typography>
-          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </div>
