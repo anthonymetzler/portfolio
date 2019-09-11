@@ -6,7 +6,6 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = {
   main: {
     padding: '12px 24px',
-    textAlign: 'justify',
   },
   inlineIcon: {
     paddingRight: '8px',
