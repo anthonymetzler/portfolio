@@ -86,6 +86,9 @@ const ProfileHeader = (props) => {
           <a style={styles.link} href={profiles[1].url}>
             <FontAwesome name="linkedin" size="2x" style={styles.socialIcon} />
           </a>
+          <a style={styles.link} href="AMezlerResume.pdf">
+            <FontAwesome name="download" size="2x" style={styles.socialIcon} />
+          </a>
         </li>
       </ul>
     </div>
