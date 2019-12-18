@@ -71,7 +71,6 @@ const Education = (props) => {
               {item.area}
             </div>
           </div>
-
         </div>
       );
     });
