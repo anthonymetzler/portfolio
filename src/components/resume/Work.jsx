@@ -103,7 +103,7 @@ WorkItem.propTypes = {
     highlights: PropTypes.array,
     position: PropTypes.string,
     company: PropTypes.string,
-    summary: PropTypes.array,
+    summary: PropTypes.string,
   }).isRequired,
 };
 

@@ -27,7 +27,7 @@ const styles = {
     marginBottom: '1rem',
   },
   link: {
-    color: '#9E9E9E',
+    color: '#616161',
     textDecoration: 'none',
   },
   list: {
@@ -39,16 +39,24 @@ const styles = {
   contactListItem: {
     paddingBottom: '8px',
   },
-  socialListItem: {
-    paddingTop: '4px',
-    paddingBottom: '8px',
+  linkListItem: {
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  linkItem: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignContent: 'center',
+    padding: '0 8px',
+    color: '#212121',
   },
   inlineIcon: {
     color: '#616161',
     paddingRight: '6px',
   },
   socialIcon: {
-    padding: '12px',
+    color: '#DD2C00',
+    padding: '8px',
   },
 };
 
@@ -79,16 +87,25 @@ const ProfileHeader = (props) => {
           />
           <span>{`${location.city}, ${location.region}`}</span>
         </li>
-        <li>
-          <a style={styles.link} href={profiles[0].url}>
-            <FontAwesome name="github" size="2x" style={styles.socialIcon} />
-          </a>
-          <a style={styles.link} href={profiles[1].url}>
-            <FontAwesome name="linkedin" size="2x" style={styles.socialIcon} />
-          </a>
-          <a style={styles.link} href="AMetzlerResume.pdf">
-            <FontAwesome name="file-text-o" size="2x" style={styles.socialIcon} />
-          </a>
+        <li style={styles.linkListItem}>
+          <div style={styles.linkItem}>
+            <a style={styles.link} href={profiles[0].url}>
+              <FontAwesome name="github" size="2x" style={styles.socialIcon} />
+            </a>
+            <div style={{fontSize: '12px', fontWeight: 'bold'}}>GitHub</div>
+          </div>
+          <div style={styles.linkItem}>
+            <a style={styles.link} href={profiles[1].url}>
+              <FontAwesome name="linkedin" size="2x" style={styles.socialIcon} />
+            </a>
+            <div style={{fontSize: '12px', fontWeight: 'bold'}}>LinkedIn</div>
+          </div>
+          <div style={styles.linkItem}>
+            <a style={styles.link} href="AMetzlerResume.pdf">
+              <FontAwesome name="file-text-o" size="2x" style={styles.socialIcon} />
+            </a>
+            <div style={{fontSize: '12px', fontWeight: 'bold'}}>Resume</div>
+          </div>
         </li>
       </ul>
     </div>
@@ -100,7 +117,7 @@ ProfileHeader.propTypes = {
     name: PropTypes.string,
     picture: PropTypes.string,
     label: PropTypes.string,
-    location: PropTypes.string,
+    location: PropTypes.object,
     email: PropTypes.string,
     profiles: PropTypes.array,
   }).isRequired,
