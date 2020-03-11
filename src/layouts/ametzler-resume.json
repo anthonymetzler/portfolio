@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Anthony Metzler",
-    "label": "Engineering and Product Manager",
+    "label": "Engineering and Program Manager",
     "picture": "AMetzlerLogo.svg",
     "email": "anthony.metzler@gmail.com",
     "phone": "4155954395",
     "website": "https://ametzler.com",
     "summary": "Professional with 10+ years experience guiding design, development, quality, and support of scalable web platforms. Tenacious contributor and empathetic leader with experience leading diverse, cross-functional teams in taking projects from conception to completion. Committed to leveraging best practices and incremental improvement initiatives for creating sustainable, forward-thinking solutions.",
     "location": {
-      "address": "777 Corbett Ave., Apt. 4",
-      "postalCode": "94131",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "93950",
+      "city": "Pacific Grove",
       "countryCode": "US",
       "region": "California"
     },
@@ -88,7 +88,7 @@
       "website": "https://clearcareonline.com",
       "startDate": "2016-09-01",
       "endDate": "2017-02-24",
-      "summary": "Lead a team of 6-10 engineers, gathered product requirements, designed new features, and managed the software development lifecycle. Served as the point of contact for customers and partners regarding numerous engineering projects running in parallel. Leader of cross-functional initiatives driving product launches and strategic partnerships.",
+      "summary": "Led a team of 6-10 engineers, gathered product requirements, designed new features, and managed the software development lifecycle. Served as the point of contact for customers and partners regarding numerous engineering projects running in parallel. Leader of cross-functional initiatives driving product launches and strategic partnerships.",
       "highlights": [
         "Managed the development of mobile apps utilizing React and React Native - this supported the onboarding of key clients resulting in new MRR.",
         "Oversaw the buildout of a new GraphQL API service integrated with the primary, monolithic Django application.",
@@ -116,11 +116,11 @@
       "website": "",
       "startDate": "2009-07-15",
       "endDate": "2013-03-14",
-      "summary": "Lead a team of business development managers, designers, and engineers in developing a B2B SaaS mobile ordering and POS platform. Created websites, feature requirements, product interfaces, and print/digital media.",
+      "summary": "Led a team of business development managers, designers, and engineers in developing a B2B SaaS mobile ordering and POS platform. Created websites, feature requirements, product interfaces, and print/digital media.",
       "highlights": [
         "Headed product development of a PHP web platform from conception to launch.",
         "Acted as project manager overseeing the integration of partner APIs providing payment and SMS functionality.",
-        "Lead and successfully completed fundraising for start-up seed capital."
+        "Led and successfully completed fundraising for start-up seed capital."
       ]
     }
   ],
