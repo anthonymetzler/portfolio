@@ -5,7 +5,7 @@ import * as resume from './ametzler-resume.json';
 import Paper from '@material-ui/core/Paper';
 import About from '../components/resume/About';
 import Education from '../components/resume/Education';
-import NavMenu from '../components/NavMenu';
+// import NavMenu from '../components/NavMenu';
 import Skills from '../components/resume/Skills';
 import Work from '../components/resume/Work';
 import ProfileHeader from '../components/resume/ProfileHeader';

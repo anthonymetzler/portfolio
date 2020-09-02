@@ -9,7 +9,6 @@ export default class NavMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = { open: false };
-    const profileData = props.profileData;
   }
 
   handleToggle() {
