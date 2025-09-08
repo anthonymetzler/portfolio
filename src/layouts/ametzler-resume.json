@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Anthony Metzler",
-    "label": "Engineering and Program Manager",
+    "label": "Technical Program Manager",
     "picture": "AMetzlerLogo.svg",
     "email": "anthony.metzler@gmail.com",
     "phone": "4155954395",
     "website": "https://ametzler.com",
-    "summary": "Professional with 10+ years experience guiding design, development, quality, and support of scalable web platforms. Tenacious contributor and empathetic leader with experience leading diverse, cross-functional teams in taking projects from conception to completion. Committed to leveraging best practices and incremental improvement initiatives for creating sustainable, forward-thinking solutions.",
+    "summary": "Seasoned Technical Program Manager with over 15 years of experience rooted in software engineering, adept at translating complex technical roadmaps into strategic business outcomes. A go-to technical expert and collaborative leader known for building high￾performing teams and leading critical infrastructure programs from ideation to delivery at global scale. Passionate about leveraging interpersonal leadership to solve ambitious challenges and launch the next generation of impactful technology solutions.",
     "location": {
       "address": "",
-      "postalCode": "93950",
-      "city": "Pacific Grove",
+      "postalCode": "94087",
+      "city": "Sunnyvale",
       "countryCode": "US",
       "region": "California"
     },
@@ -29,98 +29,77 @@
   },
   "work": [
     {
-      "company": "Self-Employed",
-      "position": "Designer and Software Engineer",
-      "website": "https://ametzler.com",
-      "startDate": "2018-08-16",
+      "company": "YouTube",
+      "position": "Technical Program Manager",
+      "website": "https://www.youtube.com",
+      "startDate": "2021-07-01",
       "endDate": "",
-      "summary": "Designed and developed B2B/B2C eCommerce platforms for a wide variety of industries. Focused on designing responsive interfaces and cross-browser accessibility.",
+      "summary": "Drove billion-dollar infrastructure decisions for YouTube's compute and storage. Served as the technical subject-matter expert for capacity planning and data analysis, leading global-scale programs and delivering critical resource forecasts for 5+ year horizons.",
       "highlights": [
-        "Created original designs for new work and performed restyling on existing production sites.",
-        "Primarily worked with Microsoft ASP.NET, but also completed projects utilizing WordPress and Shopify.",
-        "Configured, administered, and supported Salesforce sites including designing workflows, reports, and analytics."
+        "Drove billion-dollar infrastructure decisions for YouTube's compute and storage, aligning strategic supply chain planning with long-term growth and efficiency goals.",
+        "Served as the technical subject-matter expert for capacity planning, supply chain algorithms, and data analysis, delivering critical resource forecasts for 5+ year horizons.",
+        "Led global infrastructure programs, including upgrades to dedicated machines, ensuring redundancy and supporting product growth while maintaining service availability.",
+        "Directed comprehensive resource planning for compute, storage, and I/O, optimizing supply and demand and mitigating over-provisioning risks through innovative solutions.",
+        "Successfully delivered a multi-quarter, multi-million dollar infrastructure service migration (Bigtable to Spanner) on time and within budget despite resource constraints.",
+        "Managed long-term power planning for YouTube, supporting regional growth, product launches, and efficiency program while enabling Google-wide AI/ML growth.",
+        "Developed business analytics dashboards and architected data pipelines, reducing data lag by 99% and providing real-time insights for leadership on resource supply, demand, and project status."
       ]
     },
     {
-      "company": "Metz Tech",
-      "position": "Founder",
+      "company": "Independent Consultant",
+      "position": "Technical Solutions Architect",
       "website": "",
-      "startDate": "2017-02-17",
-      "endDate": "",
-      "summary": "Developed an inventory management platform optimized for consumer users. Designed a dynamic learning program to optimize order fulfillment through predictive analysis.",
+      "startDate": "2018-09-01",
+      "endDate": "2021-06-30",
+      "summary": "Delivered over a dozen end-to-end technical projects for e-commerce and SaaS clients. Designed and deployed scalable solutions supporting over $10M in annual transactions and acted as a lead technical advisor, translating business needs into actionable engineering roadmaps.",
       "highlights": [
-        "Utilized Photoshop, Illustrator, and StorybookJS to mock interfaces and developing brand designs.",
-        "Created a serverless GraphQL API to support the web and native applications.",
-        "Leveraged React and React Native to develop the application interfaces for the platform.",
-        "Spearheaded the product roadmap to outline future functionality and product strategy."
+        "Successfully delivered over 12 end-to-end technical projects, managing the complete lifecycle from requirements gathering to on-time, on-budget deployment.",
+        "Designed and deployed scalable solutions for clients in the e-commerce and SaaS sectors, including multiple enterprise e-commerce platforms that supported over $10M in annual transactions.",
+        "Partnered with clients as a technical advisor, translating complex business needs into actionable engineering roadmaps and ensuring alignment between executive stakeholders and development teams.",
+        "Leveraged performance data and user feedback to drive continuous post-launch enhancements and improve the user experience."
       ]
     },
     {
-      "company": "LifeAssist Technologies",
-      "position": "Lead Software Engineer",
-      "website": "https://lat.care",
-      "startDate": "2018-03-01",
-      "endDate": "2018-08-15",
-      "summary": "Transitioned from product operations to lead UI/UX design and development. Focused on core product redesigns and development of new product modules.",
+      "company": "LifeAssist Technology",
+      "position": "Program Manager, Director",
+      "website": "",
+      "startDate": "2017-07-01",
+      "endDate": "2018-08-31",
+      "summary": "Led the company's product strategy, partnering with executive leadership to define the long-term roadmap. Spearheaded a critical UI/UX redesign, architected a core API service to expand platform capabilities, and managed a complex clinical study with the Canadian Ministry of Health, ensuring 100% compliance.",
       "highlights": [
-        "Headed the design and development of a GraphQL API service for integrating with partner APIs.",
-        "Utilized React to complete a mobile app redesign with a focus on accessibility and responsiveness.",
-        "Championed a streamlined development process and leveraged new Javascript technologies to enhance the software development lifecycle.",
-        "Product owner responsible for generating product specifications and developing data integrations."
-      ]
-    },
-    {
-      "company": "LifeAssist Technologies",
-      "position": "Senior Program Manager",
-      "website": "https://lat.care",
-      "startDate": "2017-07-31",
-      "endDate": "2018-02-28",
-      "summary": "Consulted with healthcare organizations to implement a B2B SaaS platform with a patient-focused hardware component. Designed product enhancements and changes to facilitate customer requirements. Worked directly with the executive team leading product roadmapping discussions.",
-      "highlights": [
-        "Acted as program manager for a clinical study with the Canadian Ministry of Health - worked to ensure privacy and health-data compliancy.",
-        "Developed internal operational processes supporting company functions ranging from inventory management to client on-boarding.",
-        "Managed a B2C product beta test and facilitated periodic client discussions regarding product experience and usage."
+        "Spearheaded a critical UI/UX product redesign to enhance accessibility and responsiveness, creating a unified user experience across all platforms.",
+        "Architected and led the development of a core API service that accelerated third-party integration timelines and expanded platform capabilities.",
+        "Partnered with key healthcare organizations, translating complex requirements into the product roadmap to ensure successful launches and deliver improved patient outcomes.",
+        "Partnered directly with executive leadership to define and champion the long-term product roadmap, shaping the company's strategic direction and technology vision.",
+        "Managed a complex clinical study in partnership with the Canadian Ministry of Health, navigating strict privacy and health-data regulations to ensure 100% compliance."
       ]
     },
     {
       "company": "ClearCare",
       "position": "Engineering Manager",
-      "website": "https://clearcareonline.com",
-      "startDate": "2016-09-01",
-      "endDate": "2017-02-24",
-      "summary": "Led a team of 6-10 engineers, gathered product requirements, designed new features, and managed the software development lifecycle. Served as the point of contact for customers and partners regarding numerous engineering projects running in parallel. Leader of cross-functional initiatives driving product launches and strategic partnerships.",
+      "website": "https://www.clearcareonline.com",
+      "startDate": "2013-03-01",
+      "endDate": "2017-03-31",
+      "summary": "Managed a team of up to 10 engineers, owning the full SDLC for a portfolio of technical programs. Drove a 75% reduction in testing times by implementing a new QA framework, spearheaded the development of the company's first mobile app, and maintained 99.9% platform uptime through robust release management.",
       "highlights": [
-        "Managed the development of mobile apps utilizing React and React Native - this supported the onboarding of key clients resulting in new MRR.",
-        "Oversaw the buildout of a new GraphQL API service integrated with the primary, monolithic Django application.",
-        "Worked on developing a continuous integration pipeline using Jenkins, which decreased pre-deployment time by 50%."
-      ]
-    },
-    {
-      "company": "ClearCare",
-      "position": "QA Manager",
-      "website": "https://clearcareonline.com",
-      "startDate": "2013-03-15",
-      "endDate": "2016-08-31",
-      "summary": "As head of Quality Assurance I directly managed a team of 3-5 QA engineers responsible for writing automated tests, architecting test frameworks, and documenting software quality standards. Oversaw the verification, triaging, and escalation of all reported product issues. Headed internal communications relating to product changes by writing documentation, producing walkthroughs & videos, providing feature demos, and leading trainings.",
-      "highlights": [
-        "Awarded the ClearCare Hero Award a company wide recognition for excellence.",
-        "Served as a cross-functional technical resource and systems administrator.",
-        "Acted as the release manager responsible for near-daily production deployments.",
-        "Directed the design and completion of a Selenium test framework integrated with Behave BDD, FactoryBoy, and Jenkins; by automating the test strategy, manual testing time decreased by 75%.",
-        "Oversaw the successful launch of partner integrations, including Harvard Medical, Stanford, enterprise customers, payment processing vendors, and background check providers."
+        "Led a high-performing team of up to 10 engineers across a portfolio of technical programs, owning the entire software development lifecycle from conception and design through to deployment and maintenance.",
+        "Directed cross-functional product launches and strategic partnerships with major institutions and vendors, coordinating engineering, QA, and partner teams to land multi-million dollar contracts.",
+        "Drove a 75% reduction in pre-release testing times by establishing new QA standards and architecting a platform-wide automated testing framework, significantly improving release quality.",
+        "Spearheaded the development of two mission-critical, greenfield projects: the company's first-ever mobile application (React/React Native) to capture a new market segment and a new GraphQL API to modernize the platform's existing tech stack.",
+        "Owned the end-to-end release management process, orchestrating production deployments within a CI/CD environment to maintain 99.9% platform uptime for a mission-critical SaaS application."
       ]
     },
     {
       "company": "Creative Solutions",
-      "position": "Founder",
+      "position": "Managing Director",
       "website": "",
-      "startDate": "2009-07-15",
-      "endDate": "2013-03-14",
-      "summary": "Led a team of business development managers, designers, and engineers in developing a B2B SaaS mobile ordering and POS platform. Created websites, feature requirements, product interfaces, and print/digital media.",
+      "startDate": "2009-06-01",
+      "endDate": "2013-03-31",
+      "summary": "As founder, envisioned and led the end-to-end creation of a B2B SaaS mobile ordering platform. Directed a cross-functional team from concept to market launch and crafted the strategic vision and business plan that successfully secured crucial seed funding for market entry.",
       "highlights": [
-        "Headed product development of a PHP web platform from conception to launch.",
-        "Acted as project manager overseeing the integration of partner APIs providing payment and SMS functionality.",
-        "Led and successfully completed fundraising for start-up seed capital."
+        "Envisioned and led the end-to-end creation of a B2B SaaS mobile ordering platform, directing a cross-functional team of business development, design, and engineering talent from concept to market launch.",
+        "Architected the platform's core functionality by leading the integration of key partner APIs for payment and SMS, establishing a scalable and feature-rich service to attract early adopters.",
+        "Crafted the strategic vision, product roadmap, and business plan that successfully secured crucial seed funding and enabled the company's official market entry."
       ]
     }
   ],
@@ -137,7 +116,7 @@
     },
     {
       "institution": "Summit Technology",
-      "area": "IT and Network Administration",
+      "area": "IT Administration",
       "studyType": "Undergrad",
       "startDate": "2002-08-01",
       "endDate": "2003-06-15",
